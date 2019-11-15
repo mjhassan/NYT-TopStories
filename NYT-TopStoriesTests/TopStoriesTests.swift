@@ -1,5 +1,5 @@
 //
-//  NYT_TopStoriesTests.swift
+//  TopStoriesTests.swift
 //  NYT-TopStoriesTests
 //
 //  Created by Jahid Hassan on 11/15/19.
@@ -9,14 +9,18 @@
 import XCTest
 @testable import NYT_TopStories
 
-class NYT_TopStoriesTests: XCTestCase {
-
+class TopStoriesTests: XCTestCase {
+    fileprivate var mockViewController: TopStoriesViewControllerDelegate!
+    fileprivate var viewModel: TopStoriesProtocol!
+    
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        mockViewController = MockTopStoriesViewController()
+        viewModel = TopStoriesViewModel(bind: mockViewController)
     }
 
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        mockViewController = nil
+        viewModel = nil
     }
 
     func testExample() {

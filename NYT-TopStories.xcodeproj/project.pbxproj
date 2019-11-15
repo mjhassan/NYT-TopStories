@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		086F600A237EEC5E0073F4AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F6009237EEC5E0073F4AC /* AppDelegate.swift */; };
-		086F600E237EEC5E0073F4AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F600D237EEC5E0073F4AC /* ViewController.swift */; };
+		086F600E237EEC5E0073F4AC /* TopStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F600D237EEC5E0073F4AC /* TopStoriesViewController.swift */; };
 		086F6011237EEC5E0073F4AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086F600F237EEC5E0073F4AC /* Main.storyboard */; };
 		086F6013237EEC740073F4AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086F6012237EEC740073F4AC /* Assets.xcassets */; };
 		086F6016237EEC750073F4AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086F6014237EEC750073F4AC /* LaunchScreen.storyboard */; };
-		086F6021237EEC750073F4AC /* NYT_TopStoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F6020237EEC750073F4AC /* NYT_TopStoriesTests.swift */; };
 		086F602C237EEC760073F4AC /* NYT_TopStoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F602B237EEC760073F4AC /* NYT_TopStoriesUITests.swift */; };
+		086F6044237EF30F0073F4AC /* TopStoriesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F6043237EF30F0073F4AC /* TopStoriesProtocol.swift */; };
+		086F6046237EF36B0073F4AC /* TopStoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F6045237EF36B0073F4AC /* TopStoriesViewModel.swift */; };
+		086F6048237EF3D80073F4AC /* TopStoriesViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F6047237EF3D80073F4AC /* TopStoriesViewControllerDelegate.swift */; };
+		086F604B237EF6220073F4AC /* TopStoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F604A237EF6220073F4AC /* TopStoriesTests.swift */; };
+		086F604E237EFC5B0073F4AC /* MockTopStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F604D237EFC5A0073F4AC /* MockTopStoriesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +40,22 @@
 /* Begin PBXFileReference section */
 		086F6006237EEC5E0073F4AC /* NYT-TopStories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NYT-TopStories.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		086F6009237EEC5E0073F4AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		086F600D237EEC5E0073F4AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		086F600D237EEC5E0073F4AC /* TopStoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesViewController.swift; sourceTree = "<group>"; };
 		086F6010237EEC5E0073F4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		086F6012237EEC740073F4AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		086F6015237EEC750073F4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		086F6017237EEC750073F4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		086F601C237EEC750073F4AC /* NYT-TopStoriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NYT-TopStoriesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		086F6020237EEC750073F4AC /* NYT_TopStoriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYT_TopStoriesTests.swift; sourceTree = "<group>"; };
 		086F6022237EEC750073F4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		086F6027237EEC760073F4AC /* NYT-TopStoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NYT-TopStoriesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		086F602B237EEC760073F4AC /* NYT_TopStoriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYT_TopStoriesUITests.swift; sourceTree = "<group>"; };
 		086F602D237EEC760073F4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086F6043237EF30F0073F4AC /* TopStoriesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesProtocol.swift; sourceTree = "<group>"; };
+		086F6045237EF36B0073F4AC /* TopStoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesViewModel.swift; sourceTree = "<group>"; };
+		086F6047237EF3D80073F4AC /* TopStoriesViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesViewControllerDelegate.swift; sourceTree = "<group>"; };
+		086F604A237EF6220073F4AC /* TopStoriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesTests.swift; sourceTree = "<group>"; };
+		086F604C237EF7040073F4AC /* NYT-TopStoriesTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NYT-TopStoriesTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		086F604D237EFC5A0073F4AC /* MockTopStoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTopStoriesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +106,7 @@
 		086F6008237EEC5E0073F4AC /* NYT-TopStories */ = {
 			isa = PBXGroup;
 			children = (
+				086F6042237EF2E00073F4AC /* Protocols */,
 				086F6041237EF06E0073F4AC /* ViewModel */,
 				086F6040237EF0660073F4AC /* Models */,
 				086F603F237EF0590073F4AC /* Resources */,
@@ -109,8 +119,10 @@
 		086F601F237EEC750073F4AC /* NYT-TopStoriesTests */ = {
 			isa = PBXGroup;
 			children = (
-				086F6020237EEC750073F4AC /* NYT_TopStoriesTests.swift */,
 				086F6022237EEC750073F4AC /* Info.plist */,
+				086F604C237EF7040073F4AC /* NYT-TopStoriesTests-Bridging-Header.h */,
+				086F604A237EF6220073F4AC /* TopStoriesTests.swift */,
+				086F604D237EFC5A0073F4AC /* MockTopStoriesViewController.swift */,
 			);
 			path = "NYT-TopStoriesTests";
 			sourceTree = "<group>";
@@ -154,7 +166,7 @@
 		086F603E237EF0330073F4AC /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				086F600D237EEC5E0073F4AC /* ViewController.swift */,
+				086F600D237EEC5E0073F4AC /* TopStoriesViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -177,8 +189,18 @@
 		086F6041237EF06E0073F4AC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				086F6045237EF36B0073F4AC /* TopStoriesViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		086F6042237EF2E00073F4AC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				086F6043237EF30F0073F4AC /* TopStoriesProtocol.swift */,
+				086F6047237EF3D80073F4AC /* TopStoriesViewControllerDelegate.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +274,7 @@
 					};
 					086F601B237EEC750073F4AC = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 						TestTargetID = 086F6005237EEC5E0073F4AC;
 					};
 					086F6026237EEC760073F4AC = {
@@ -312,7 +335,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				086F600E237EEC5E0073F4AC /* ViewController.swift in Sources */,
+				086F6046237EF36B0073F4AC /* TopStoriesViewModel.swift in Sources */,
+				086F6044237EF30F0073F4AC /* TopStoriesProtocol.swift in Sources */,
+				086F6048237EF3D80073F4AC /* TopStoriesViewControllerDelegate.swift in Sources */,
+				086F600E237EEC5E0073F4AC /* TopStoriesViewController.swift in Sources */,
 				086F600A237EEC5E0073F4AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,7 +347,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				086F6021237EEC750073F4AC /* NYT_TopStoriesTests.swift in Sources */,
+				086F604E237EFC5B0073F4AC /* MockTopStoriesViewController.swift in Sources */,
+				086F604B237EF6220073F4AC /* TopStoriesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +550,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z26XZJBBF2;
 				INFOPLIST_FILE = "NYT-TopStoriesTests/Info.plist";
@@ -534,6 +562,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jahidhassan.NYT-TopStoriesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NYT-TopStoriesTests/NYT-TopStoriesTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYT-TopStories.app/NYT-TopStories";
@@ -545,6 +575,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z26XZJBBF2;
 				INFOPLIST_FILE = "NYT-TopStoriesTests/Info.plist";
@@ -556,6 +587,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jahidhassan.NYT-TopStoriesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NYT-TopStoriesTests/NYT-TopStoriesTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYT-TopStories.app/NYT-TopStories";
