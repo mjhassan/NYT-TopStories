@@ -97,12 +97,11 @@
 		086F6008237EEC5E0073F4AC /* NYT-TopStories */ = {
 			isa = PBXGroup;
 			children = (
-				086F6009237EEC5E0073F4AC /* AppDelegate.swift */,
-				086F600D237EEC5E0073F4AC /* ViewController.swift */,
-				086F600F237EEC5E0073F4AC /* Main.storyboard */,
-				086F6012237EEC740073F4AC /* Assets.xcassets */,
-				086F6014237EEC750073F4AC /* LaunchScreen.storyboard */,
-				086F6017237EEC750073F4AC /* Info.plist */,
+				086F6041237EF06E0073F4AC /* ViewModel */,
+				086F6040237EF0660073F4AC /* Models */,
+				086F603F237EF0590073F4AC /* Resources */,
+				086F603C237EF0200073F4AC /* Views */,
+				086F603A237EEFF70073F4AC /* Supporting Files */,
 			);
 			path = "NYT-TopStories";
 			sourceTree = "<group>";
@@ -123,6 +122,63 @@
 				086F602D237EEC760073F4AC /* Info.plist */,
 			);
 			path = "NYT-TopStoriesUITests";
+			sourceTree = "<group>";
+		};
+		086F603A237EEFF70073F4AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				086F6017237EEC750073F4AC /* Info.plist */,
+				086F6009237EEC5E0073F4AC /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		086F603C237EF0200073F4AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				086F603E237EF0330073F4AC /* ViewControllers */,
+				086F603D237EF0290073F4AC /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		086F603D237EF0290073F4AC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				086F600F237EEC5E0073F4AC /* Main.storyboard */,
+				086F6014237EEC750073F4AC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		086F603E237EF0330073F4AC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				086F600D237EEC5E0073F4AC /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		086F603F237EF0590073F4AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				086F6012237EEC740073F4AC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		086F6040237EF0660073F4AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		086F6041237EF06E0073F4AC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
