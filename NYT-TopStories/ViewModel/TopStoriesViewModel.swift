@@ -31,13 +31,18 @@ class TopStoriesViewModel: TopStoriesProtocol {
     }
     
     func fetchData() {
+        guard Reachability.isReachable == true else {
+            delegate?.didFailedWithError("You are offline. Please try again later.")
+            return
+        }
+        
         delegate?.willStartFetchingData()
         
         service.getTopStories { [weak self] result in
             switch result {
             case .success(let _articles):
                 self?.articles = _articles
-                self?.filterUser()
+                self?.filter = ""
             case .failure(let err):
                 self?.delegate?.didFailedWithError(err.errorDescription ?? "Unknown error occured")
             }

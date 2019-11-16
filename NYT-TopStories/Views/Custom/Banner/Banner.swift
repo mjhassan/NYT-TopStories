@@ -9,10 +9,11 @@
 import UIKit
 
 class Banner: UIView {
-    static func view() -> UIView {
+    static var view: UIView {
         let bundle = Bundle(for: Self.self)
         let nib = UINib(nibName: String(describing: self), bundle: bundle)
         let view = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
+        
         return view
     }
 }

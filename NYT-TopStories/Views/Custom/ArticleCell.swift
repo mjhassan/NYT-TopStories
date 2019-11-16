@@ -9,7 +9,15 @@
 import UIKit
 
 class ArticleCell: UITableViewCell {
-
+    static let identifier: String = String(describing: self)
+    
+    var article: Article? {
+        didSet {
+            textLabel?.text = article?.title
+            detailTextLabel?.text = article?.abstract
+        }
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

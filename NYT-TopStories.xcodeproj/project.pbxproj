@@ -14,6 +14,8 @@
 		086BDA8A23803B5000DF001E /* MockNYTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086BDA8923803B5000DF001E /* MockNYTService.swift */; };
 		086BDA8C23803BA800DF001E /* top_stories_home.json in Resources */ = {isa = PBXBuildFile; fileRef = 086BDA8B23803BA700DF001E /* top_stories_home.json */; };
 		086BDA8E23803FE400DF001E /* ArticleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086BDA8D23803FE400DF001E /* ArticleExtensions.swift */; };
+		086BDA922380506100DF001E /* UtilityMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086BDA912380506100DF001E /* UtilityMethods.swift */; };
+		086BDA942380568D00DF001E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086BDA932380568D00DF001E /* Reachability.swift */; };
 		086F600A237EEC5E0073F4AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F6009237EEC5E0073F4AC /* AppDelegate.swift */; };
 		086F600E237EEC5E0073F4AC /* TopStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F600D237EEC5E0073F4AC /* TopStoriesViewController.swift */; };
 		086F6011237EEC5E0073F4AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086F600F237EEC5E0073F4AC /* Main.storyboard */; };
@@ -55,6 +57,8 @@
 		086BDA8923803B5000DF001E /* MockNYTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNYTService.swift; sourceTree = "<group>"; };
 		086BDA8B23803BA700DF001E /* top_stories_home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = top_stories_home.json; sourceTree = "<group>"; };
 		086BDA8D23803FE400DF001E /* ArticleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleExtensions.swift; sourceTree = "<group>"; };
+		086BDA912380506100DF001E /* UtilityMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityMethods.swift; sourceTree = "<group>"; };
+		086BDA932380568D00DF001E /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		086F6006237EEC5E0073F4AC /* NYT-TopStories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NYT-TopStories.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		086F6009237EEC5E0073F4AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		086F600D237EEC5E0073F4AC /* TopStoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +115,15 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
+		086BDA902380502900DF001E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				086BDA912380506100DF001E /* UtilityMethods.swift */,
+				086BDA932380568D00DF001E /* Reachability.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		086F5FFD237EEC5E0073F4AC = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +147,7 @@
 		086F6008237EEC5E0073F4AC /* NYT-TopStories */ = {
 			isa = PBXGroup;
 			children = (
+				086BDA902380502900DF001E /* Utils */,
 				086BDA802380189A00DF001E /* Networking */,
 				086F6040237EF0660073F4AC /* Models */,
 				086F6042237EF2E00073F4AC /* Protocols */,
@@ -397,11 +411,13 @@
 				086BDA86238025D400DF001E /* CodableError.swift in Sources */,
 				086F6048237EF3D80073F4AC /* TopStoriesViewControllerDelegate.swift in Sources */,
 				086BDA7F2380173000DF001E /* ServiceProtocol.swift in Sources */,
+				086BDA922380506100DF001E /* UtilityMethods.swift in Sources */,
 				086F600E237EEC5E0073F4AC /* TopStoriesViewController.swift in Sources */,
 				086BDA8423801E4D00DF001E /* Article.swift in Sources */,
 				086F6056237F156F0073F4AC /* ArticleCell.swift in Sources */,
 				086F600A237EEC5E0073F4AC /* AppDelegate.swift in Sources */,
 				086F6052237F0E410073F4AC /* Banner.swift in Sources */,
+				086BDA942380568D00DF001E /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
