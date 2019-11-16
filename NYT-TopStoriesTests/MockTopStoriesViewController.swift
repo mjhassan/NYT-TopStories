@@ -10,5 +10,22 @@ import Foundation
 @testable import NYT_TopStories
 
 class MockTopStoriesViewController: TopStoriesViewControllerDelegate {
+    public var calledWillStartFetchingData: Bool = false
+    public var calledDidFinishFetchingData: Bool = false
+    public var calledDidFailedWithError: Bool = false
     
+    public var errorDescription: String? = nil
+    
+    func willStartFetchingData() {
+        calledWillStartFetchingData = true
+    }
+    
+    func didFinishFetchingData() {
+        calledDidFinishFetchingData = true
+    }
+    
+    func didFailedWithError(_ description: String) {
+        errorDescription = description
+        calledDidFailedWithError = true
+    }
 }

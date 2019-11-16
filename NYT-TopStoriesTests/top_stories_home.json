@@ -1,0 +1,2475 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2019 The New York Times Company. All Rights Reserved.",
+    "section": "home",
+    "last_updated": "2019-11-15T11:17:16-05:00",
+    "num_results": 33,
+    "results": [
+        {
+            "section": "U.S.",
+            "subsection": "Politics",
+            "title": "Impeachment Hearings: Live Updates of Marie Yovanovitch’s Testimony",
+            "abstract": "As the former ambassador to Ukraine testified about her shock and disgust at discovering President Trump had denigrated her in a July call with the president of Ukraine, he insulted her on Twitter. She said the president’s words “sounded like a threat,” and that the tweets were “very intimidating.”",
+            "url": "https://www.nytimes.com/2019/11/15/us/politics/impeachment-hearings.html",
+            "byline": "By PETER BAKER and MICHAEL D. SHEAR",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T10:52:16-05:00",
+            "created_date": "2019-11-15T07:00:07-05:00",
+            "published_date": "2019-11-15T07:00:07-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Trump, Donald J",
+                "Yovanovitch, Marie L"
+            ],
+            "geo_facet": [],
+            "multimedia": [],
+            "short_url": "https://nyti.ms/33QsUIJ"
+        },
+        {
+            "section": "U.S.",
+            "subsection": "Politics",
+            "title": "Who Is Marie Yovanovitch? Former Ambassador Testifies in Impeachment Hearing",
+            "abstract": "The ousted ambassador to Ukraine recounted how she became the target of a smear campaign by President Trump’s personal lawyer and the right-wing media.",
+            "url": "https://www.nytimes.com/2019/11/15/us/politics/marie-yovanovitch-facts-bio.html",
+            "byline": "By SHERYL GAY STOLBERG",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T11:04:06-05:00",
+            "created_date": "2019-11-15T08:20:15-05:00",
+            "published_date": "2019-11-15T08:20:15-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry",
+                "Appointments and Executive Changes",
+                "Diplomatic Service, Embassies and Consulates"
+            ],
+            "org_facet": [
+                "State Department"
+            ],
+            "per_facet": [
+                "Yovanovitch, Marie L",
+                "Trump, Donald J",
+                "Giuliani, Rudolph W"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/us/politics/15dc-yovanovitch-sub/15dc-yovanovitch-sub-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Marie L. Yovanovitch, the former ambassador to Ukraine, arriving Friday to testify before Congress.",
+                    "copyright": "Erin Schaff/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/us/politics/15dc-yovanovitch-sub/15dc-yovanovitch-sub-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Marie L. Yovanovitch, the former ambassador to Ukraine, arriving Friday to testify before Congress.",
+                    "copyright": "Erin Schaff/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/us/politics/15dc-yovanovitch-sub/merlin_164442045_eba8030d-a0a1-4964-a855-5f2b51c41f05-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 127,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Marie L. Yovanovitch, the former ambassador to Ukraine, arriving Friday to testify before Congress.",
+                    "copyright": "Erin Schaff/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/us/politics/15dc-yovanovitch-sub/merlin_164442045_eba8030d-a0a1-4964-a855-5f2b51c41f05-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Marie L. Yovanovitch, the former ambassador to Ukraine, arriving Friday to testify before Congress.",
+                    "copyright": "Erin Schaff/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/us/politics/15dc-yovanovitch-sub/merlin_164442045_eba8030d-a0a1-4964-a855-5f2b51c41f05-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Marie L. Yovanovitch, the former ambassador to Ukraine, arriving Friday to testify before Congress.",
+                    "copyright": "Erin Schaff/The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/35bgbkd"
+        },
+        {
+            "section": "U.S.",
+            "subsection": "Politics",
+            "title": "Rough Transcript of Trump’s First Call With Ukrainian Leader Released",
+            "abstract": "The White House released a memo about Mr. Trump’s first call with President Volodymyr Zelensky, but it does not mention “corruption,” which appeared in an earlier description of the call.",
+            "url": "https://www.nytimes.com/2019/11/15/us/politics/trump-zelensky-first-call.html",
+            "byline": "By MARK MAZZETTI and EILEEN SULLIVAN",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T10:24:07-05:00",
+            "created_date": "2019-11-15T10:10:54-05:00",
+            "published_date": "2019-11-15T10:10:54-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Trump, Donald J",
+                "Zelensky, Volodymyr"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/nyregion/14dc-transcript/14dc-transcript-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Trump walking to the East Room in the White House earlier this month.",
+                    "copyright": "Doug Mills/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/nyregion/14dc-transcript/14dc-transcript-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Trump walking to the East Room in the White House earlier this month.",
+                    "copyright": "Doug Mills/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/nyregion/14dc-transcript/merlin_164022885_034622bf-0e88-4632-a2c6-d4c5b17035f7-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 133,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Trump walking to the East Room in the White House earlier this month.",
+                    "copyright": "Doug Mills/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/nyregion/14dc-transcript/14dc-transcript-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Trump walking to the East Room in the White House earlier this month.",
+                    "copyright": "Doug Mills/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/nyregion/14dc-transcript/merlin_164022885_034622bf-0e88-4632-a2c6-d4c5b17035f7-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1435,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Trump walking to the East Room in the White House earlier this month.",
+                    "copyright": "Doug Mills/The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/2XewjP4"
+        },
+        {
+            "section": "U.S.",
+            "subsection": "Politics",
+            "title": "How Michael Bloomberg and Deval Patrick Could Alter the 2020 Race",
+            "abstract": "They want to lead the Democratic Party’s moderate wing. But it will not be easy to displace Joseph R. Biden Jr., and then battle Elizabeth Warren and Bernie Sanders.",
+            "url": "https://www.nytimes.com/2019/11/15/us/politics/deval-patrick-michael-bloomberg-2020.html",
+            "byline": "By ALEXANDER BURNS",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T09:29:03-05:00",
+            "created_date": "2019-11-15T05:00:27-05:00",
+            "published_date": "2019-11-15T05:00:27-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Presidential Election of 2020",
+                "Primaries and Caucuses"
+            ],
+            "org_facet": [
+                "Democratic Party"
+            ],
+            "per_facet": [
+                "Bloomberg, Michael R",
+                "Patrick, Deval L"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/16/us/politics/16stateofrace1/16stateofrace1-thumbStandard-v2.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Deval Patrick, the former governor of Massachusetts, filed to be on the New Hampshire primary ballot but has not built an operation to compete there.",
+                    "copyright": "Elizabeth Frantz for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/16/us/politics/16stateofrace1/16stateofrace1-thumbLarge-v2.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Deval Patrick, the former governor of Massachusetts, filed to be on the New Hampshire primary ballot but has not built an operation to compete there.",
+                    "copyright": "Elizabeth Frantz for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/16/us/politics/16stateofrace1/16stateofrace1-articleInline-v2.jpg",
+                    "format": "Normal",
+                    "height": 127,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Deval Patrick, the former governor of Massachusetts, filed to be on the New Hampshire primary ballot but has not built an operation to compete there.",
+                    "copyright": "Elizabeth Frantz for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/16/us/politics/16stateofrace1/16stateofrace1-mediumThreeByTwo210-v2.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Deval Patrick, the former governor of Massachusetts, filed to be on the New Hampshire primary ballot but has not built an operation to compete there.",
+                    "copyright": "Elizabeth Frantz for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/16/us/politics/16stateofrace1/16stateofrace1-superJumbo-v2.jpg",
+                    "format": "superJumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Deval Patrick, the former governor of Massachusetts, filed to be on the New Hampshire primary ballot but has not built an operation to compete there.",
+                    "copyright": "Elizabeth Frantz for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/33Rq1qW"
+        },
+        {
+            "section": "U.S.",
+            "subsection": "",
+            "title": "Santa Clarita Shooting Is Another Nightmare Made Real",
+            "abstract": "Two students were killed when a young man opened fire at Saugus High School in Santa Clarita, Calif.",
+            "url": "https://www.nytimes.com/2019/11/14/us/school-shooting-santa-clarita.html",
+            "byline": "By JILL COWAN, AMY HARMON and NICHOLAS BOGEL-BURROUGHS",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T08:36:56-05:00",
+            "created_date": "2019-11-14T19:20:33-05:00",
+            "published_date": "2019-11-14T19:20:33-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "School Shootings and Armed Attacks",
+                "Santa Clarita, Calif, Shooting (2019)",
+                "Firearms"
+            ],
+            "org_facet": [
+                "Saugus High School (Santa Clarita, Calif)"
+            ],
+            "per_facet": [],
+            "geo_facet": [
+                "California",
+                "Santa Clarita (Calif)"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/us/15santaclarita-p1/merlin_164392143_43892b7b-918f-4418-86c1-757aa5b76f03-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Students waited to be reunited with their parents after the shooting in Santa Clarita.",
+                    "copyright": "David Walter Banks for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/us/15santaclarita-p1/merlin_164392143_43892b7b-918f-4418-86c1-757aa5b76f03-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Students waited to be reunited with their parents after the shooting in Santa Clarita.",
+                    "copyright": "David Walter Banks for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/us/15santaclarita-p1/merlin_164392143_43892b7b-918f-4418-86c1-757aa5b76f03-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 127,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Students waited to be reunited with their parents after the shooting in Santa Clarita.",
+                    "copyright": "David Walter Banks for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/us/15santaclarita-p1/merlin_164392143_43892b7b-918f-4418-86c1-757aa5b76f03-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Students waited to be reunited with their parents after the shooting in Santa Clarita.",
+                    "copyright": "David Walter Banks for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/us/15santaclarita-p1/merlin_164392143_43892b7b-918f-4418-86c1-757aa5b76f03-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1333,
+                    "width": 2000,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Students waited to be reunited with their parents after the shooting in Santa Clarita.",
+                    "copyright": "David Walter Banks for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/2CLnaUA"
+        },
+        {
+            "section": "Business",
+            "subsection": "DealBook",
+            "title": "After School Shooting, Bill Focuses on Banks and Guns",
+            "abstract": "A day after two students were killed at a school in Santa Clarita, Ca., a new bill will seek to have banks work with the government on financial activity related to firearms.",
+            "url": "https://www.nytimes.com/2019/11/15/business/dealbook/banks-gun-crime.html",
+            "byline": "",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T08:23:07-05:00",
+            "created_date": "2019-11-15T06:20:26-05:00",
+            "published_date": "2019-11-15T06:20:26-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Gun Control"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Wexton, Jennifer T"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/business/15db-guns/merlin_164427225_d01657f5-9dfb-48bd-97bd-883ce544aef5-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Students and parents embrace after a shooting Thursday at Saugus High School in Santa Clarita, Calif.",
+                    "copyright": "Mario Tama/Getty Images"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/business/15db-guns/merlin_164427225_d01657f5-9dfb-48bd-97bd-883ce544aef5-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Students and parents embrace after a shooting Thursday at Saugus High School in Santa Clarita, Calif.",
+                    "copyright": "Mario Tama/Getty Images"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/business/15db-guns/merlin_164427225_d01657f5-9dfb-48bd-97bd-883ce544aef5-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 116,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Students and parents embrace after a shooting Thursday at Saugus High School in Santa Clarita, Calif.",
+                    "copyright": "Mario Tama/Getty Images"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/business/15db-guns/merlin_164427225_d01657f5-9dfb-48bd-97bd-883ce544aef5-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Students and parents embrace after a shooting Thursday at Saugus High School in Santa Clarita, Calif.",
+                    "copyright": "Mario Tama/Getty Images"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/business/15db-guns/merlin_164427225_d01657f5-9dfb-48bd-97bd-883ce544aef5-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1251,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Students and parents embrace after a shooting Thursday at Saugus High School in Santa Clarita, Calif.",
+                    "copyright": "Mario Tama/Getty Images"
+                }
+            ],
+            "short_url": "https://nyti.ms/2XeS0P1"
+        },
+        {
+            "section": "The Weekly",
+            "subsection": "",
+            "title": "The Plan to Rescue El Chapo’s Son: Chaos, Guns and Fear",
+            "abstract": "One of Mexico’s most notorious drug cartels turned a city into a war zone for a day. Watch how gunmen took on the army — and won.",
+            "url": "https://www.nytimes.com/2019/11/15/the-weekly/el-chapo-guzman-son.html",
+            "byline": "",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T10:22:52-05:00",
+            "created_date": "2019-11-15T05:11:45-05:00",
+            "published_date": "2019-11-15T05:11:45-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Drug Cartels",
+                "The Weekly (TV Program)"
+            ],
+            "org_facet": [
+                "Sinaloa Cartel",
+                "FX (TV Network)",
+                "Hulu.com"
+            ],
+            "per_facet": [
+                "Guzman Loera, Joaquin",
+                "Guzman Lopez, Ovidio"
+            ],
+            "geo_facet": [
+                "Culiacan (Mexico)"
+            ],
+            "multimedia": [],
+            "short_url": "https://nyti.ms/2CNNygw"
+        },
+        {
+            "section": "Opinion",
+            "subsection": "",
+            "title": "To Excuse Trump, Republicans Embrace Fantasy",
+            "abstract": "The impeachment hearings showcase their mental limberness and ethical elasticity.",
+            "url": "https://www.nytimes.com/2019/11/15/opinion/republicans-impeachment-hearing.html",
+            "byline": "By FRANK BRUNI",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T06:00:07-05:00",
+            "created_date": "2019-11-15T06:00:08-05:00",
+            "published_date": "2019-11-15T06:00:08-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry",
+                "United States Politics and Government",
+                "Impeachment"
+            ],
+            "org_facet": [
+                "Republican Party"
+            ],
+            "per_facet": [
+                "Trump, Donald J",
+                "Graham, Lindsey",
+                "Nunes, Devin G",
+                "Jordan, Jim (1964- )"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/opinion/sunday/17bruni/17bruni-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Ben Wiseman"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/opinion/sunday/17bruni/17bruni-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Ben Wiseman"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/opinion/sunday/17bruni/17bruni-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 197,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Ben Wiseman"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/opinion/sunday/17bruni/17bruni-mediumThreeByTwo210-v2.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Ben Wiseman"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/opinion/sunday/17bruni/17bruni-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 2048,
+                    "width": 1974,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Ben Wiseman"
+                }
+            ],
+            "short_url": "https://nyti.ms/2XhrgNH"
+        },
+        {
+            "section": "Opinion",
+            "subsection": "",
+            "title": "Stephen Miller’s Sinister Syllabus",
+            "abstract": "Leaked emails from 2015 and 2016 show one of Trump’s top advisers trying to teach Breitbart editors a thing or two about white nationalism.",
+            "url": "https://www.nytimes.com/2019/11/15/opinion/stephen-miller-emails.html",
+            "byline": "By JAMELLE BOUIE",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T06:00:08-05:00",
+            "created_date": "2019-11-15T06:00:08-05:00",
+            "published_date": "2019-11-15T06:00:08-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Immigration and Emigration",
+                "Whites",
+                "Race and Ethnicity",
+                "Family Separation Policy (US Immigration)",
+                "Illegal Immigration",
+                "United States Politics and Government",
+                "Charlottesville, Va, Violence (August, 2017)"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "McHugh, Katie",
+                "Miller, Stephen (1985- )"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/opinion/15bouieWeb/15bouieWeb-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Stephen Miller at the White House in October.",
+                    "copyright": "Damon Winter/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/opinion/15bouieWeb/15bouieWeb-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Stephen Miller at the White House in October.",
+                    "copyright": "Damon Winter/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/opinion/15bouieWeb/merlin_162545895_158f7c2e-f612-4da6-aa49-948f14061822-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 127,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Stephen Miller at the White House in October.",
+                    "copyright": "Damon Winter/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/opinion/15bouieWeb/merlin_162545895_158f7c2e-f612-4da6-aa49-948f14061822-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Stephen Miller at the White House in October.",
+                    "copyright": "Damon Winter/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/opinion/15bouieWeb/merlin_162545895_158f7c2e-f612-4da6-aa49-948f14061822-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Stephen Miller at the White House in October.",
+                    "copyright": "Damon Winter/The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/33QfNY1"
+        },
+        {
+            "section": "Opinion",
+            "subsection": "",
+            "title": "The White House Motto: Watch Your Back",
+            "abstract": "Having stooped low to protect the president, administration officials are vulnerable to one another.",
+            "url": "https://www.nytimes.com/2019/11/14/opinion/trump-white-house.html",
+            "byline": "By MICHELLE COTTLE",
+            "item_type": "Article",
+            "updated_date": "2019-11-14T16:44:25-05:00",
+            "created_date": "2019-11-14T16:44:25-05:00",
+            "published_date": "2019-11-14T16:44:25-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry",
+                "circular firing squad"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Bolton, John R",
+                "Mulvaney, Mick",
+                "Cipollone, Pat A",
+                "Trump, Donald J"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/opinion/14firingsquad/14firingsquad-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Illustration by The New York Times; photographs by Erin Schaff/The New York Times, Samuel Corum and T.J. Kirkpatrick for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/opinion/14firingsquad/14firingsquad-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Illustration by The New York Times; photographs by Erin Schaff/The New York Times, Samuel Corum and T.J. Kirkpatrick for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/opinion/14firingsquad/14firingsquad-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 190,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Illustration by The New York Times; photographs by Erin Schaff/The New York Times, Samuel Corum and T.J. Kirkpatrick for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/opinion/14firingsquad/14firingsquad-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Illustration by The New York Times; photographs by Erin Schaff/The New York Times, Samuel Corum and T.J. Kirkpatrick for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/opinion/14firingsquad/14firingsquad-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1800,
+                    "width": 1800,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Illustration by The New York Times; photographs by Erin Schaff/The New York Times, Samuel Corum and T.J. Kirkpatrick for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/2CLziF4"
+        },
+        {
+            "section": "Opinion",
+            "subsection": "",
+            "title": "I’m Sorry, Is Impeachment Not Entertaining Enough for You?",
+            "abstract": "The desire for politics to entertain was one of the things that gave us President Trump.",
+            "url": "https://www.nytimes.com/2019/11/15/opinion/impeachment-boring.html",
+            "byline": "By JENNIFER WEINER",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T10:23:49-05:00",
+            "created_date": "2019-11-15T06:42:21-05:00",
+            "published_date": "2019-11-15T06:42:21-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry",
+                "United States Politics and Government",
+                "News and News Media",
+                "Boredom",
+                "Impeachment"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Trump, Donald J"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/opinion/15weiner/15weiner-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "William B. Taylor Jr., the top American diplomat in Ukraine, testifying in Washington on Wednesday.",
+                    "copyright": "Jose Luis Magana/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/opinion/15weiner/15weiner-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "William B. Taylor Jr., the top American diplomat in Ukraine, testifying in Washington on Wednesday.",
+                    "copyright": "Jose Luis Magana/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/opinion/15weiner/merlin_164345523_d96b3da4-6e49-4264-8fdc-152fec2698f5-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 113,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "William B. Taylor Jr., the top American diplomat in Ukraine, testifying in Washington on Wednesday.",
+                    "copyright": "Jose Luis Magana/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/opinion/15weiner/15weiner-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "William B. Taylor Jr., the top American diplomat in Ukraine, testifying in Washington on Wednesday.",
+                    "copyright": "Jose Luis Magana/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/opinion/15weiner/merlin_164345523_d96b3da4-6e49-4264-8fdc-152fec2698f5-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1220,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "William B. Taylor Jr., the top American diplomat in Ukraine, testifying in Washington on Wednesday.",
+                    "copyright": "Jose Luis Magana/Associated Press"
+                }
+            ],
+            "short_url": "https://nyti.ms/2CO4eoq"
+        },
+        {
+            "section": "Opinion",
+            "subsection": "",
+            "title": "‘The World Is Watching’",
+            "abstract": "Readers in the United States and abroad react to the first day of public hearings in the impeachment inquiry.",
+            "url": "https://www.nytimes.com/2019/11/15/opinion/impeachment-hearings-taylor.html",
+            "byline": "By RACHEL L. HARRIS and LISA TARCHAK",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T10:04:13-05:00",
+            "created_date": "2019-11-15T07:38:59-05:00",
+            "published_date": "2019-11-15T07:38:59-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Trump-Ukraine Whistle-Blower Complaint and Impeachment Inquiry",
+                "United States Politics and Government",
+                "Impeachment"
+            ],
+            "org_facet": [
+                "Democratic Party",
+                "Republican Party"
+            ],
+            "per_facet": [],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/opinion/14opreaders-impeachreax/14opreaders-impeachreax-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "William B. Taylor Jr., right, and George Kent, the deputy assistant secretary of state for European and Eurasian affairs, testified on Wednesday.",
+                    "copyright": "Erin Schaff/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/opinion/14opreaders-impeachreax/14opreaders-impeachreax-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "William B. Taylor Jr., right, and George Kent, the deputy assistant secretary of state for European and Eurasian affairs, testified on Wednesday.",
+                    "copyright": "Erin Schaff/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/opinion/14opreaders-impeachreax/merlin_164337822_75ff5fcf-9e78-4263-92d9-3ffbd95ebd74-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 127,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "William B. Taylor Jr., right, and George Kent, the deputy assistant secretary of state for European and Eurasian affairs, testified on Wednesday.",
+                    "copyright": "Erin Schaff/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/opinion/14opreaders-impeachreax/merlin_164337822_75ff5fcf-9e78-4263-92d9-3ffbd95ebd74-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "William B. Taylor Jr., right, and George Kent, the deputy assistant secretary of state for European and Eurasian affairs, testified on Wednesday.",
+                    "copyright": "Erin Schaff/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/opinion/14opreaders-impeachreax/merlin_164337822_75ff5fcf-9e78-4263-92d9-3ffbd95ebd74-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "William B. Taylor Jr., right, and George Kent, the deputy assistant secretary of state for European and Eurasian affairs, testified on Wednesday.",
+                    "copyright": "Erin Schaff/The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/2NPgefD"
+        },
+        {
+            "section": "Real Estate",
+            "subsection": "",
+            "title": "What It’s Like to Watch TV Replicate Your Home",
+            "abstract": "Visiting a set that has been designed to look just like your home is more than a little trippy.",
+            "url": "https://www.nytimes.com/2019/11/15/realestate/what-its-like-to-watch-tv-replicate-your-home.html",
+            "byline": "By HELENE STAPINSKI",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T11:06:52-05:00",
+            "created_date": "2019-11-15T05:00:37-05:00",
+            "published_date": "2019-11-15T05:00:37-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Real Estate and Housing (Residential)",
+                "Television"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [
+                "Windsor Terrace (Brooklyn, NY)"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/realestate/15replica01/15replica01-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A replica of the author&rsquo;s house on the set for the Fox TV show &ldquo;Almost Family&rdquo; at Broadway Stages, in Greenpoint, Brooklyn.",
+                    "copyright": "Brittainy Newman/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/realestate/15replica01/15replica01-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A replica of the author&rsquo;s house on the set for the Fox TV show &ldquo;Almost Family&rdquo; at Broadway Stages, in Greenpoint, Brooklyn.",
+                    "copyright": "Brittainy Newman/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/realestate/15replica01/merlin_163540089_6d98c6b9-5ea1-4b45-af98-dbaf07c2f98f-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 127,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A replica of the author&rsquo;s house on the set for the Fox TV show &ldquo;Almost Family&rdquo; at Broadway Stages, in Greenpoint, Brooklyn.",
+                    "copyright": "Brittainy Newman/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/realestate/15replica01/merlin_163540089_6d98c6b9-5ea1-4b45-af98-dbaf07c2f98f-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A replica of the author&rsquo;s house on the set for the Fox TV show &ldquo;Almost Family&rdquo; at Broadway Stages, in Greenpoint, Brooklyn.",
+                    "copyright": "Brittainy Newman/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/realestate/15replica01/merlin_163540089_6d98c6b9-5ea1-4b45-af98-dbaf07c2f98f-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A replica of the author&rsquo;s house on the set for the Fox TV show &ldquo;Almost Family&rdquo; at Broadway Stages, in Greenpoint, Brooklyn.",
+                    "copyright": "Brittainy Newman/The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/2q58yNj"
+        },
+        {
+            "section": "Style",
+            "subsection": "",
+            "title": "He’s Never Going to Put Away That Shirt",
+            "abstract": "Sometimes it’s the uneventful stretches of marriage that can be the real stress test.",
+            "url": "https://www.nytimes.com/2019/11/15/style/modern-love-not-putting-away-shirt.html",
+            "byline": "By BRENDA JANOWITZ",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T01:34:10-05:00",
+            "created_date": "2019-11-15T00:00:06-05:00",
+            "published_date": "2019-11-15T00:00:06-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Love (Emotion)",
+                "Marriages",
+                "Fashion and Apparel"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/fashion/17MODERNLOVE/17MODERNLOVE-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Brian Rea"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/fashion/17MODERNLOVE/17MODERNLOVE-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Brian Rea"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/fashion/17MODERNLOVE/17MODERNLOVE-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 120,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Brian Rea"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/fashion/17MODERNLOVE/17MODERNLOVE-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Brian Rea"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/fashion/17MODERNLOVE/17MODERNLOVE-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1296,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Brian Rea"
+                }
+            ],
+            "short_url": "https://nyti.ms/2NQxDEO"
+        },
+        {
+            "section": "Health",
+            "subsection": "",
+            "title": "To Lower Costs, Trump to Force Hospitals to Reveal Price of Care",
+            "abstract": "The federal rule would make hospitals list the prices they negotiate with insurers, allowing consumers to seek better deals for care.",
+            "url": "https://www.nytimes.com/2019/11/15/health/list-hospital-prices-trump.html",
+            "byline": "By REED ABELSON",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T10:41:24-05:00",
+            "created_date": "2019-11-15T10:41:23-05:00",
+            "published_date": "2019-11-15T10:41:23-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "your-feed-healthcare"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/science/15HOSPITALS/15HOSPITALS-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Alex M. Azar II, the secretary of health and human services, shown last year, said, “American patients have been at the mercy of a shadowy system.”",
+                    "copyright": "Tom Brenner/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/science/15HOSPITALS/15HOSPITALS-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Alex M. Azar II, the secretary of health and human services, shown last year, said, “American patients have been at the mercy of a shadowy system.”",
+                    "copyright": "Tom Brenner/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/science/15HOSPITALS/15HOSPITALS-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 127,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Alex M. Azar II, the secretary of health and human services, shown last year, said, “American patients have been at the mercy of a shadowy system.”",
+                    "copyright": "Tom Brenner/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/science/15HOSPITALS/15HOSPITALS-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Alex M. Azar II, the secretary of health and human services, shown last year, said, “American patients have been at the mercy of a shadowy system.”",
+                    "copyright": "Tom Brenner/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/science/15HOSPITALS/merlin_138012087_04107118-4839-41b3-b62e-88e57910bff9-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Alex M. Azar II, the secretary of health and human services, shown last year, said, “American patients have been at the mercy of a shadowy system.”",
+                    "copyright": "Tom Brenner/The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/2rNNs6y"
+        },
+        {
+            "section": "Business",
+            "subsection": "",
+            "title": "Apple to Ban Vaping Apps From Its Store",
+            "abstract": "A respiratory condition linked to vaping has caused more than 40 deaths and over 2,000 illnesses, according to United States health authorities.",
+            "url": "https://www.nytimes.com/2019/11/15/business/apple-vaping-apps.html",
+            "byline": "By AMIE TSANG",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T09:59:09-05:00",
+            "created_date": "2019-11-15T09:15:35-05:00",
+            "published_date": "2019-11-15T09:15:35-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Mobile Applications",
+                "E-Cigarettes",
+                "Respiratory Diseases"
+            ],
+            "org_facet": [
+                "Apple Inc",
+                "Centers for Disease Control and Prevention"
+            ],
+            "per_facet": [],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/business/15vapingapps/merlin_162555300_1c0050af-54a4-4caa-af65-189ac0e7e55e-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Apple said health authorities “have attributed a variety of lung injuries and fatalities to e-cigarette and vaping products.”",
+                    "copyright": "Tony Dejak/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/business/15vapingapps/merlin_162555300_1c0050af-54a4-4caa-af65-189ac0e7e55e-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Apple said health authorities “have attributed a variety of lung injuries and fatalities to e-cigarette and vaping products.”",
+                    "copyright": "Tony Dejak/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/business/15vapingapps/merlin_162555300_1c0050af-54a4-4caa-af65-189ac0e7e55e-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 127,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Apple said health authorities “have attributed a variety of lung injuries and fatalities to e-cigarette and vaping products.”",
+                    "copyright": "Tony Dejak/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/business/15vapingapps/merlin_162555300_1c0050af-54a4-4caa-af65-189ac0e7e55e-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Apple said health authorities “have attributed a variety of lung injuries and fatalities to e-cigarette and vaping products.”",
+                    "copyright": "Tony Dejak/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/business/15vapingapps/merlin_162555300_1c0050af-54a4-4caa-af65-189ac0e7e55e-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1366,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Apple said health authorities “have attributed a variety of lung injuries and fatalities to e-cigarette and vaping products.”",
+                    "copyright": "Tony Dejak/Associated Press"
+                }
+            ],
+            "short_url": "https://nyti.ms/32V4jkR"
+        },
+        {
+            "section": "U.S.",
+            "subsection": "Politics",
+            "title": "Multiple Lawmakers Under Investigation Over Ethical Misconduct",
+            "abstract": "The Justice Department is now reviewing one case, over whether Representative Ross Spano had violated campaign finance laws.",
+            "url": "https://www.nytimes.com/2019/11/14/us/politics/lawmakers-ethics-misconduct.html",
+            "byline": "By EMILY COCHRANE",
+            "item_type": "Article",
+            "updated_date": "2019-11-14T21:20:09-05:00",
+            "created_date": "2019-11-14T21:20:09-05:00",
+            "published_date": "2019-11-14T21:20:09-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "United States Politics and Government",
+                "Campaign Finance",
+                "Ethics and Official Misconduct"
+            ],
+            "org_facet": [
+                "House Committee on Ethics"
+            ],
+            "per_facet": [
+                "Hastings, Alcee L",
+                "Huizenga, William P",
+                "Tlaib, Rashida"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/business/14dc-ethics-hastings/14dc-ethics-hastings-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The House Ethics Committee said it was examining the relationship between Representative Alcee L. Hastings, Democrat of Florida, and his longtime girlfriend, who is on his staff.",
+                    "copyright": "Manuel Balce Ceneta/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/business/14dc-ethics-hastings/14dc-ethics-hastings-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The House Ethics Committee said it was examining the relationship between Representative Alcee L. Hastings, Democrat of Florida, and his longtime girlfriend, who is on his staff.",
+                    "copyright": "Manuel Balce Ceneta/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/business/14dc-ethics-hastings/merlin_149171979_e476033d-e60c-4992-a36f-91f5ed3059fd-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 126,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The House Ethics Committee said it was examining the relationship between Representative Alcee L. Hastings, Democrat of Florida, and his longtime girlfriend, who is on his staff.",
+                    "copyright": "Manuel Balce Ceneta/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/business/14dc-ethics-hastings/14dc-ethics-hastings-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The House Ethics Committee said it was examining the relationship between Representative Alcee L. Hastings, Democrat of Florida, and his longtime girlfriend, who is on his staff.",
+                    "copyright": "Manuel Balce Ceneta/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/business/14dc-ethics-hastings/merlin_149171979_e476033d-e60c-4992-a36f-91f5ed3059fd-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1360,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The House Ethics Committee said it was examining the relationship between Representative Alcee L. Hastings, Democrat of Florida, and his longtime girlfriend, who is on his staff.",
+                    "copyright": "Manuel Balce Ceneta/Associated Press"
+                }
+            ],
+            "short_url": "https://nyti.ms/2CM9Dfs"
+        },
+        {
+            "section": "U.S.",
+            "subsection": "",
+            "title": "Teenager Who Killed His Father and a 6-Year-Old Is Sentenced to Life Without Parole",
+            "abstract": "Jesse Dewitt Osborne was 14 when he killed his father in 2016 before driving to an elementary school in Townville, S.C., and shooting three people, killing one.",
+            "url": "https://www.nytimes.com/2019/11/14/us/jesse-osborne-townville-school-shooting.html",
+            "byline": "By EMILY S. RUEB and SANDRA E. GARCIA",
+            "item_type": "Article",
+            "updated_date": "2019-11-14T19:21:59-05:00",
+            "created_date": "2019-11-14T18:30:02-05:00",
+            "published_date": "2019-11-14T18:30:02-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "School Shootings and Armed Attacks",
+                "Murders, Attempted Murders and Homicides"
+            ],
+            "org_facet": [
+                "Townville Elementary School (Townville, SC)"
+            ],
+            "per_facet": [
+                "Osborne, Jeffrey (1969-2016)"
+            ],
+            "geo_facet": [
+                "Townville (SC)"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/13/multimedia/00xp-townville-promo/00xp-townville-promo-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A sign urging prayers after the 2016 school shooting in Townville, S.C.",
+                    "copyright": "Jay Reeves/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/13/multimedia/00xp-townville-promo/00xp-townville-promo-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A sign urging prayers after the 2016 school shooting in Townville, S.C.",
+                    "copyright": "Jay Reeves/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/13/multimedia/00xp-townville-promo/merlin_112466465_a5e963df-d712-482e-9c22-3c436267ccfc-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 136,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A sign urging prayers after the 2016 school shooting in Townville, S.C.",
+                    "copyright": "Jay Reeves/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/13/multimedia/00xp-townville-promo/00xp-townville-promo-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A sign urging prayers after the 2016 school shooting in Townville, S.C.",
+                    "copyright": "Jay Reeves/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/13/multimedia/00xp-townville-promo/merlin_112466465_a5e963df-d712-482e-9c22-3c436267ccfc-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1435,
+                    "width": 2000,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A sign urging prayers after the 2016 school shooting in Townville, S.C.",
+                    "copyright": "Jay Reeves/Associated Press"
+                }
+            ],
+            "short_url": "https://nyti.ms/2QqIsiB"
+        },
+        {
+            "section": "Arts",
+            "subsection": "Music",
+            "title": "Taylor Swift Escalates Battle With Scooter Braun and Big Machine",
+            "abstract": "The singer said in a post on Tumblr that her old label was blocking her use of certain songs, and she asked her fans to get involved.",
+            "url": "https://www.nytimes.com/2019/11/15/arts/music/taylor-swift-scooter-braun.html",
+            "byline": "By JOE COSCARELLI",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T11:01:35-05:00",
+            "created_date": "2019-11-15T09:59:34-05:00",
+            "published_date": "2019-11-15T09:59:34-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Pop and Rock Music",
+                "Social Media",
+                "American Music Awards"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Swift, Taylor",
+                "Borchetta, Scott",
+                "Braun, Scooter (1981- )"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/arts/15taylor/15taylor-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Taylor Swift said that she was being blocked from performing her old songs at an awards show, as well as from using them in a Netflix documentary. In a statement, Big Machine Label Group said it was honoring her requests.",
+                    "copyright": "Andrew Kelly/Reuters"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/arts/15taylor/15taylor-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Taylor Swift said that she was being blocked from performing her old songs at an awards show, as well as from using them in a Netflix documentary. In a statement, Big Machine Label Group said it was honoring her requests.",
+                    "copyright": "Andrew Kelly/Reuters"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/arts/15taylor/merlin_164430831_ba0cef0b-9d11-4f72-8b29-519cdcb82ace-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 145,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Taylor Swift said that she was being blocked from performing her old songs at an awards show, as well as from using them in a Netflix documentary. In a statement, Big Machine Label Group said it was honoring her requests.",
+                    "copyright": "Andrew Kelly/Reuters"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/arts/15taylor/15taylor-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Taylor Swift said that she was being blocked from performing her old songs at an awards show, as well as from using them in a Netflix documentary. In a statement, Big Machine Label Group said it was honoring her requests.",
+                    "copyright": "Andrew Kelly/Reuters"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/arts/15taylor/merlin_164430831_ba0cef0b-9d11-4f72-8b29-519cdcb82ace-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1568,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Taylor Swift said that she was being blocked from performing her old songs at an awards show, as well as from using them in a Netflix documentary. In a statement, Big Machine Label Group said it was honoring her requests.",
+                    "copyright": "Andrew Kelly/Reuters"
+                }
+            ],
+            "short_url": "https://nyti.ms/353GPv3"
+        },
+        {
+            "section": "New York",
+            "subsection": "",
+            "title": "Why White Parents Were at the Front of the Line for the School Tour",
+            "abstract": "The high stakes of high school admissions in New York — and the lengths some go to get any small advantage.",
+            "url": "https://www.nytimes.com/2019/11/15/nyregion/beacon-high-school-admissions-nyc.html",
+            "byline": "By ELIZA SHAPIRO",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T05:00:34-05:00",
+            "created_date": "2019-11-15T05:00:34-05:00",
+            "published_date": "2019-11-15T05:00:34-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Education (K-12)",
+                "Admissions Standards",
+                "Segregation and Desegregation",
+                "Equal Educational Opportunities",
+                "Parenting"
+            ],
+            "org_facet": [
+                "Beacon School (Manhattan, NY)"
+            ],
+            "per_facet": [],
+            "geo_facet": [
+                "New York City"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/nyregion/17jpLINES1/00SCHOOL-LINES1-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "On a recent Tuesday, a hundred mostly white parents queued up in the rain to tour Beacon High School, though the doors would not open for another two hours.",
+                    "copyright": "Brittainy Newman/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/nyregion/17jpLINES1/00SCHOOL-LINES1-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "On a recent Tuesday, a hundred mostly white parents queued up in the rain to tour Beacon High School, though the doors would not open for another two hours.",
+                    "copyright": "Brittainy Newman/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/nyregion/17jpLINES1/00SCHOOL-LINES1-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 127,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "On a recent Tuesday, a hundred mostly white parents queued up in the rain to tour Beacon High School, though the doors would not open for another two hours.",
+                    "copyright": "Brittainy Newman/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/nyregion/17jpLINES1/00SCHOOL-LINES1-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "On a recent Tuesday, a hundred mostly white parents queued up in the rain to tour Beacon High School, though the doors would not open for another two hours.",
+                    "copyright": "Brittainy Newman/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/17/nyregion/17jpLINES1/00SCHOOL-LINES1-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "On a recent Tuesday, a hundred mostly white parents queued up in the rain to tour Beacon High School, though the doors would not open for another two hours.",
+                    "copyright": "Brittainy Newman/The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/2pl38x5"
+        },
+        {
+            "section": "Sports",
+            "subsection": "Pro Football",
+            "title": "Browns’ Myles Garrett Faces Suspension for Hitting Steelers Quarterback With Helmet",
+            "abstract": "Garrett, a defensive end, pulled off the helmet of Steelers quarterback Mason Rudolph and swung it at his head.",
+            "url": "https://www.nytimes.com/2019/11/15/sports/football/browns-steelers-helmet-garrett.html",
+            "byline": "By THE NEW YORK TIMES",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T10:20:31-05:00",
+            "created_date": "2019-11-15T02:32:22-05:00",
+            "published_date": "2019-11-15T02:32:22-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Football",
+                "Helmets"
+            ],
+            "org_facet": [
+                "Cleveland Browns",
+                "Pittsburgh Steelers"
+            ],
+            "per_facet": [
+                "Garrett, Myles (1995- )",
+                "Rudolph, Mason (1995- )"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/sports/15browns-steelers/15browns-steelers-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Cleveland’s Myles Garrett, right, pulled off the helmet of the Steelers’ Mason Rudolph and swung it at him.",
+                    "copyright": "Jason Miller/Getty Images"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/sports/15browns-steelers/15browns-steelers-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Cleveland’s Myles Garrett, right, pulled off the helmet of the Steelers’ Mason Rudolph and swung it at him.",
+                    "copyright": "Jason Miller/Getty Images"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/sports/15browns-steelers/merlin_164423466_646036ed-8260-47b3-a00f-c7cf61a0da8e-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 126,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Cleveland’s Myles Garrett, right, pulled off the helmet of the Steelers’ Mason Rudolph and swung it at him.",
+                    "copyright": "Jason Miller/Getty Images"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/sports/15browns-steelers/15browns-steelers-mediumThreeByTwo210-v2.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Cleveland’s Myles Garrett, right, pulled off the helmet of the Steelers’ Mason Rudolph and swung it at him.",
+                    "copyright": "Jason Miller/Getty Images"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/sports/15browns-steelers/merlin_164423466_646036ed-8260-47b3-a00f-c7cf61a0da8e-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1363,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Cleveland’s Myles Garrett, right, pulled off the helmet of the Steelers’ Mason Rudolph and swung it at him.",
+                    "copyright": "Jason Miller/Getty Images"
+                }
+            ],
+            "short_url": "https://nyti.ms/376KPNl"
+        },
+        {
+            "section": "New York",
+            "subsection": "",
+            "title": "Uber Fined $649 Million for Saying Drivers Aren’t Employees",
+            "abstract": "The move by New Jersey could reverberate across the gig economy.",
+            "url": "https://www.nytimes.com/2019/11/14/nyregion/uber-new-jersey-drivers.html",
+            "byline": "By MATTHEW HAAG and PATRICK McGEEHAN",
+            "item_type": "Article",
+            "updated_date": "2019-11-14T19:07:04-05:00",
+            "created_date": "2019-11-14T18:25:32-05:00",
+            "published_date": "2019-11-14T18:25:32-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Car Services and Livery Cabs",
+                "Wages and Salaries",
+                "Freelancing, Self-Employment and Independent Contracting",
+                "Taxation",
+                "Labor and Jobs",
+                "Mobile Applications"
+            ],
+            "org_facet": [
+                "Uber Technologies Inc"
+            ],
+            "per_facet": [],
+            "geo_facet": [
+                "New Jersey"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/nyregion/14njuber1/14njuber1-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "New Jersey’s move against Uber reflects an intensifying national debate over how app-based companies treat their work force.",
+                    "copyright": "Jeenah Moon for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/nyregion/14njuber1/14njuber1-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "New Jersey’s move against Uber reflects an intensifying national debate over how app-based companies treat their work force.",
+                    "copyright": "Jeenah Moon for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/nyregion/14njuber1/14njuber1-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 127,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "New Jersey’s move against Uber reflects an intensifying national debate over how app-based companies treat their work force.",
+                    "copyright": "Jeenah Moon for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/nyregion/14njuber1/14njuber1-mediumThreeByTwo210-v2.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "New Jersey’s move against Uber reflects an intensifying national debate over how app-based companies treat their work force.",
+                    "copyright": "Jeenah Moon for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/nyregion/14njuber1/14njuber1-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "New Jersey’s move against Uber reflects an intensifying national debate over how app-based companies treat their work force.",
+                    "copyright": "Jeenah Moon for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/2CLLx4u"
+        },
+        {
+            "section": "Sports",
+            "subsection": "Pro Football",
+            "title": "Does Colin Kaepernick Still Need Football?",
+            "abstract": "During his three-year exile from the N.F.L., Kaepernick has grown in influence and cultural stature. So why would he bother playing by the league’s rules?",
+            "url": "https://www.nytimes.com/2019/11/14/sports/football/colin-kaepernick-workout-nfl.html",
+            "byline": "By BEN SHPIGEL",
+            "item_type": "Article",
+            "updated_date": "2019-11-14T18:38:34-05:00",
+            "created_date": "2019-11-14T18:25:47-05:00",
+            "published_date": "2019-11-14T18:25:47-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Football",
+                "Race and Ethnicity",
+                "United States National Anthem Protests (2016- )"
+            ],
+            "org_facet": [
+                "National Football League"
+            ],
+            "per_facet": [
+                "Kaepernick, Colin"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/sports/14kap-folo/merlin_150745260_20866fb5-79c4-4f3b-839c-fbf4d8064333-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A billboard in Manhattan displayed Colin Kaepernick’s Nike campaign in 2018.",
+                    "copyright": "Angela Weiss/Agence France-Presse — Getty Images"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/sports/14kap-folo/merlin_150745260_20866fb5-79c4-4f3b-839c-fbf4d8064333-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A billboard in Manhattan displayed Colin Kaepernick’s Nike campaign in 2018.",
+                    "copyright": "Angela Weiss/Agence France-Presse — Getty Images"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/sports/14kap-folo/merlin_150745260_20866fb5-79c4-4f3b-839c-fbf4d8064333-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 128,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A billboard in Manhattan displayed Colin Kaepernick’s Nike campaign in 2018.",
+                    "copyright": "Angela Weiss/Agence France-Presse — Getty Images"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/sports/14kap-folo/merlin_150745260_20866fb5-79c4-4f3b-839c-fbf4d8064333-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A billboard in Manhattan displayed Colin Kaepernick’s Nike campaign in 2018.",
+                    "copyright": "Angela Weiss/Agence France-Presse — Getty Images"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/sports/14kap-folo/merlin_150745260_20866fb5-79c4-4f3b-839c-fbf4d8064333-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1383,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A billboard in Manhattan displayed Colin Kaepernick’s Nike campaign in 2018.",
+                    "copyright": "Angela Weiss/Agence France-Presse — Getty Images"
+                }
+            ],
+            "short_url": "https://nyti.ms/2NNSUPh"
+        },
+        {
+            "section": "Smarter Living",
+            "subsection": "",
+            "title": "The Basics of Caring for Your Sneakers",
+            "abstract": "A little care can make your sneakers last for the long haul.",
+            "url": "https://www.nytimes.com/2019/11/14/smarter-living/the-basics-of-caring-for-your-sneakers.html",
+            "byline": "By JOLIE KERR",
+            "item_type": "Article",
+            "updated_date": "2019-11-14T22:00:01-05:00",
+            "created_date": "2019-11-14T22:00:01-05:00",
+            "published_date": "2019-11-14T22:00:01-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/06/smarter-living/00sl_sneakercleaning_articlepromo/00sl_sneakercleaning_articlepromo-thumbStandard.png",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Ted and Chelsea Cavanaugh"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/06/smarter-living/00sl_sneakercleaning_articlepromo/00sl_sneakercleaning_articlepromo-thumbLarge.png",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Ted and Chelsea Cavanaugh"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/06/smarter-living/00sl_sneakercleaning_articlepromo/00sl_sneakercleaning_articlepromo-articleInline.png",
+                    "format": "Normal",
+                    "height": 239,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Ted and Chelsea Cavanaugh"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/06/smarter-living/00sl_sneakercleaning_articlepromo/00sl_sneakercleaning_articlepromo-mediumThreeByTwo210.png",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Ted and Chelsea Cavanaugh"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/06/smarter-living/00sl_sneakercleaning_articlepromo/00sl_sneakercleaning_articlepromo-superJumbo.png",
+                    "format": "superJumbo",
+                    "height": 2048,
+                    "width": 1630,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Ted and Chelsea Cavanaugh"
+                }
+            ],
+            "short_url": "https://nyti.ms/2O7myOg"
+        },
+        {
+            "section": "Smarter Living",
+            "subsection": "",
+            "title": "How to Do 2 Simple Magic Tricks — and Why You Should Learn Them",
+            "abstract": "You don’t have to be a wizard to do magic tricks. The secrets are simple, and anyone can learn them. Here are two easy tricks you can master today.",
+            "url": "https://www.nytimes.com/2019/11/13/smarter-living/how-to-do-2-simple-magic-tricks-and-why-you-should-learn-them.html",
+            "byline": "By IAN FRISCH",
+            "item_type": "Article",
+            "updated_date": "2019-11-14T09:46:39-05:00",
+            "created_date": "2019-11-13T22:00:01-05:00",
+            "published_date": "2019-11-13T22:00:01-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/09/11/smarter-living/magic_opener/magic_opener-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "United Labor"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/09/11/smarter-living/magic_opener/magic_opener-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "United Labor"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/09/11/smarter-living/magic_opener/magic_opener-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 127,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "United Labor"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/09/11/smarter-living/magic_opener/magic_opener-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "United Labor"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/09/11/smarter-living/magic_opener/magic_opener-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 870,
+                    "width": 1305,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "United Labor"
+                }
+            ],
+            "short_url": "https://nyti.ms/2CFU09r"
+        },
+        {
+            "section": "Smarter Living",
+            "subsection": "Wirecutter",
+            "title": "Budget for Christmas and Save Money on All Your Presents This Year",
+            "abstract": "Christmas shopping can drive even the best savers into debt. Here’s a plan to save, and the best way to spend.",
+            "url": "https://www.nytimes.com/2019/11/13/smarter-living/wirecutter/how-to-save-money-for-christmas.html",
+            "byline": "By TAYLOR TEPPER",
+            "item_type": "Article",
+            "updated_date": "2019-11-14T09:59:12-05:00",
+            "created_date": "2019-11-13T18:12:00-05:00",
+            "published_date": "2019-11-13T18:12:00-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Gifts",
+                "Credit Cards",
+                "Christmas",
+                "Shopping and Retail",
+                "your-feed-wirecutter"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/smarter-living/creditcardsl/creditcardsl-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Holiday shopping and credit cards can go together, as long as you use the right cards and pay attention to how much you spend.",
+                    "copyright": "Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/smarter-living/creditcardsl/creditcardsl-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Holiday shopping and credit cards can go together, as long as you use the right cards and pay attention to how much you spend.",
+                    "copyright": "Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/smarter-living/creditcardsl/creditcardsl-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 130,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Holiday shopping and credit cards can go together, as long as you use the right cards and pay attention to how much you spend.",
+                    "copyright": "Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/smarter-living/creditcardsl/creditcardsl-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Holiday shopping and credit cards can go together, as long as you use the right cards and pay attention to how much you spend.",
+                    "copyright": "Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/smarter-living/creditcardsl/creditcardsl-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 702,
+                    "width": 1024,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Holiday shopping and credit cards can go together, as long as you use the right cards and pay attention to how much you spend.",
+                    "copyright": "Associated Press"
+                }
+            ],
+            "short_url": "https://nyti.ms/32PQJiF"
+        },
+        {
+            "section": "Smarter Living",
+            "subsection": "",
+            "title": "5 Cheap(ish) Things for Throwing a Party in a Small Space",
+            "abstract": "Maximize that space!",
+            "url": "https://www.nytimes.com/2019/11/13/smarter-living/5-cheap-ish-things-for-throwing-a-party-in-a-small-space.html",
+            "byline": "By MICHAEL SULLIVAN",
+            "item_type": "Article",
+            "updated_date": "2019-11-13T22:46:11-05:00",
+            "created_date": "2019-11-13T22:46:11-05:00",
+            "published_date": "2019-11-13T22:46:11-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/smarter-living/14sl-wirecutternewsletter/14sl-wirecutternewsletter-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Michael Hession"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/smarter-living/14sl-wirecutternewsletter/14sl-wirecutternewsletter-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Michael Hession"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/smarter-living/14sl-wirecutternewsletter/14sl-wirecutternewsletter-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 95,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Michael Hession"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/smarter-living/14sl-wirecutternewsletter/14sl-wirecutternewsletter-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Michael Hession"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/smarter-living/14sl-wirecutternewsletter/14sl-wirecutternewsletter-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1024,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Michael Hession"
+                }
+            ],
+            "short_url": "https://nyti.ms/32NWPjk"
+        },
+        {
+            "section": "Smarter Living",
+            "subsection": "",
+            "title": "How Small Habits Can Lead to Big Changes",
+            "abstract": "The power of taking microsteps.",
+            "url": "https://www.nytimes.com/2019/11/13/smarter-living/how-to-build-better-habits-work-sleep.html",
+            "byline": "By ARIANNA HUFFINGTON",
+            "item_type": "Article",
+            "updated_date": "2019-11-13T07:08:34-05:00",
+            "created_date": "2019-11-13T00:06:32-05:00",
+            "published_date": "2019-11-13T00:06:32-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/18/smarter-living/18sl-micro/12sl-micro-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Sarah Mazzetti"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/18/smarter-living/18sl-micro/12sl-micro-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Sarah Mazzetti"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/18/smarter-living/18sl-micro/12sl-micro-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 95,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Sarah Mazzetti"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/18/smarter-living/18sl-micro/12sl-micro-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Sarah Mazzetti"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/18/smarter-living/18sl-micro/12sl-micro-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1024,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Sarah Mazzetti"
+                }
+            ],
+            "short_url": "https://nyti.ms/2NIiYLS"
+        },
+        {
+            "section": "Arts",
+            "subsection": "Art & Design",
+            "title": "Peas, Socks and Sidewalk-Trash Sculptures: Just Keep Looking",
+            "abstract": "Rachel Harrison’s midcareer survey at the Whitney Museum includes pieces that defy description. You feel things will come clear if you just hang out longer. And people do.",
+            "url": "https://www.nytimes.com/2019/11/14/arts/design/rachel-harrison-review-whitney-museum.html",
+            "byline": "By HOLLAND COTTER",
+            "item_type": "Article",
+            "updated_date": "2019-11-14T23:46:17-05:00",
+            "created_date": "2019-11-14T15:26:48-05:00",
+            "published_date": "2019-11-14T15:26:48-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Art"
+            ],
+            "org_facet": [
+                "Whitney Museum of American Art"
+            ],
+            "per_facet": [
+                "Harrison, Rachel"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/arts/14harrison-review8/14harrison-review8-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "&ldquo;Brownie,&rdquo; from 2005, is a Giacomettian column embedded with life-size skulls.",
+                    "copyright": "Charlie Rubin for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/arts/14harrison-review8/14harrison-review8-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "&ldquo;Brownie,&rdquo; from 2005, is a Giacomettian column embedded with life-size skulls.",
+                    "copyright": "Charlie Rubin for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/arts/14harrison-review8/14harrison-review8-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 252,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "&ldquo;Brownie,&rdquo; from 2005, is a Giacomettian column embedded with life-size skulls.",
+                    "copyright": "Charlie Rubin for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/arts/14harrison-review8/14harrison-review8-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "&ldquo;Brownie,&rdquo; from 2005, is a Giacomettian column embedded with life-size skulls.",
+                    "copyright": "Charlie Rubin for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/arts/14harrison-review8/14harrison-review8-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 2048,
+                    "width": 1542,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "&ldquo;Brownie,&rdquo; from 2005, is a Giacomettian column embedded with life-size skulls.",
+                    "copyright": "Charlie Rubin for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/33OcEYJ"
+        },
+        {
+            "section": "Movies",
+            "subsection": "",
+            "title": "‘Ford v Ferrari’ Review: It’s a Gas",
+            "abstract": "Matt Damon and Christian Bale star in James Mangold’s look back at the golden age of auto racing.",
+            "url": "https://www.nytimes.com/2019/11/14/movies/ford-v-ferrari-review.html",
+            "byline": "By A.O. SCOTT",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T08:06:21-05:00",
+            "created_date": "2019-11-14T10:48:36-05:00",
+            "published_date": "2019-11-14T10:48:36-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Movies",
+                "Ford v Ferrari (Movie)"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Mangold, James",
+                "Bale, Christian",
+                "Damon, Matt"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/arts/14ford-ferrari1/14ford-ferrari1-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Christian Bale as the driver Ken Miles in “Ford v Ferrari,” directed by James Mangold.",
+                    "copyright": "Merrick Morton/20th Century Fox"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/arts/14ford-ferrari1/14ford-ferrari1-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Christian Bale as the driver Ken Miles in “Ford v Ferrari,” directed by James Mangold.",
+                    "copyright": "Merrick Morton/20th Century Fox"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/arts/14ford-ferrari1/merlin_164172888_f6a9ab06-dd0e-4eeb-b467-9ef3a0403a39-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 79,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Christian Bale as the driver Ken Miles in “Ford v Ferrari,” directed by James Mangold.",
+                    "copyright": "Merrick Morton/20th Century Fox"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/arts/14ford-ferrari1/14ford-ferrari1-mediumThreeByTwo210-v2.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Christian Bale as the driver Ken Miles in “Ford v Ferrari,” directed by James Mangold.",
+                    "copyright": "Merrick Morton/20th Century Fox"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/14/arts/14ford-ferrari1/merlin_164172888_f6a9ab06-dd0e-4eeb-b467-9ef3a0403a39-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 848,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Christian Bale as the driver Ken Miles in “Ford v Ferrari,” directed by James Mangold.",
+                    "copyright": "Merrick Morton/20th Century Fox"
+                }
+            ],
+            "short_url": "https://nyti.ms/2XdTqJv"
+        },
+        {
+            "section": "Food",
+            "subsection": "",
+            "title": "Our Best Vegan Thanksgiving Recipes: Mac and Cheese, Pumpkin Pie, Mashed Potatoes and More",
+            "abstract": "Everything you need to host a delicious meat-free, dairy-free feast.",
+            "url": "https://www.nytimes.com/2019/11/15/dining/vegan-thanksgiving-recipes.html",
+            "byline": "By MARGAUX LASKEY",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T10:01:16-05:00",
+            "created_date": "2019-11-15T05:00:11-05:00",
+            "published_date": "2019-11-15T05:00:11-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Cooking and Cookbooks",
+                "Thanksgiving Day",
+                "Veganism"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/05/dining/gh-vegan-stuffing/gh-vegan-stuffing-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Gena Hamshaw’s vegan stuffing.",
+                    "copyright": "Christopher Testani for The New York Times. Food Stylist: Simon Andrews."
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/05/dining/gh-vegan-stuffing/gh-vegan-stuffing-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Gena Hamshaw’s vegan stuffing.",
+                    "copyright": "Christopher Testani for The New York Times. Food Stylist: Simon Andrews."
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/05/dining/gh-vegan-stuffing/merlin_163633290_a46c7dcb-e2e4-4871-9c7a-713012c298cb-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 127,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Gena Hamshaw’s vegan stuffing.",
+                    "copyright": "Christopher Testani for The New York Times. Food Stylist: Simon Andrews."
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/05/dining/gh-vegan-stuffing/merlin_163633290_a46c7dcb-e2e4-4871-9c7a-713012c298cb-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Gena Hamshaw’s vegan stuffing.",
+                    "copyright": "Christopher Testani for The New York Times. Food Stylist: Simon Andrews."
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/05/dining/gh-vegan-stuffing/merlin_163633290_a46c7dcb-e2e4-4871-9c7a-713012c298cb-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 1366,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Gena Hamshaw’s vegan stuffing.",
+                    "copyright": "Christopher Testani for The New York Times. Food Stylist: Simon Andrews."
+                }
+            ],
+            "short_url": "https://nyti.ms/2Ois94D"
+        },
+        {
+            "section": "Arts",
+            "subsection": "Television",
+            "title": "Making Impeachment Sexy Again Is Not a Concern, Late Night Says",
+            "abstract": "“You know, impeachment is like a family reunion,” Trevor Noah said on Thursday. “If it’s sexy, something has gone horribly wrong.”",
+            "url": "https://www.nytimes.com/2019/11/15/arts/television/late-night-trevor-noah-trump-impeachment.html",
+            "byline": "By TRISH BENDIX",
+            "item_type": "Article",
+            "updated_date": "2019-11-15T03:17:43-05:00",
+            "created_date": "2019-11-15T03:17:43-05:00",
+            "published_date": "2019-11-15T03:17:43-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Late Show with Stephen Colbert (TV Program)",
+                "The Daily Show with Trevor Noah (TV Program)",
+                "The Tonight Show (TV Program)"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Colbert, Stephen",
+                "Fallon, Jimmy",
+                "Kimmel, Jimmy",
+                "Meyers, Seth",
+                "Noah, Trevor (1984- )",
+                "Patrick, Deval L",
+                "Trump, Donald J"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/arts/15latenight/15latenight-thumbStandard.png",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "“You know, impeachment is like a family reunion,” Trevor Noah said Thursday. “If it’s sexy, something has gone horribly wrong.”",
+                    "copyright": "Comedy Central"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/arts/15latenight/15latenight-thumbLarge.png",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "“You know, impeachment is like a family reunion,” Trevor Noah said Thursday. “If it’s sexy, something has gone horribly wrong.”",
+                    "copyright": "Comedy Central"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/arts/15latenight/15latenight-articleInline.png",
+                    "format": "Normal",
+                    "height": 108,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "“You know, impeachment is like a family reunion,” Trevor Noah said Thursday. “If it’s sexy, something has gone horribly wrong.”",
+                    "copyright": "Comedy Central"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/arts/15latenight/15latenight-mediumThreeByTwo210.png",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "“You know, impeachment is like a family reunion,” Trevor Noah said Thursday. “If it’s sexy, something has gone horribly wrong.”",
+                    "copyright": "Comedy Central"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/11/15/arts/15latenight/15latenight-superJumbo.png",
+                    "format": "superJumbo",
+                    "height": 420,
+                    "width": 742,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "“You know, impeachment is like a family reunion,” Trevor Noah said Thursday. “If it’s sexy, something has gone horribly wrong.”",
+                    "copyright": "Comedy Central"
+                }
+            ],
+            "short_url": "https://nyti.ms/2rOaFWf"
+        },
+        {
+            "section": "Books",
+            "subsection": "Book Review",
+            "title": "Darryl Pinckney on Race, Class and Being ‘Busted in New York’",
+            "abstract": "In his new collection of essays, the author reflects on growing up black and privileged, and the legacy of his parents’ civil rights activism.",
+            "url": "https://www.nytimes.com/2019/11/12/books/review/busted-in-new-york-essays-darryl-pinckney.html",
+            "byline": "By LAURETTA CHARLTON",
+            "item_type": "Article",
+            "updated_date": "2019-11-12T05:00:06-05:00",
+            "created_date": "2019-11-12T05:00:06-05:00",
+            "published_date": "2019-11-12T05:00:06-05:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Books and Literature",
+                "Race and Ethnicity",
+                "Police Brutality, Misconduct and Shootings",
+                "Discrimination",
+                "Busted in New York and Other Essays (Book)",
+                "Blacks"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Pinckney, Darryl"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2019/12/12/books/12Charlton-promo/12Charlton-promo-thumbStandard.jpg",
+                    "format": "Standard Thumbnail",
+                    "height": 75,
+                    "width": 75,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": ""
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/12/12/books/12Charlton-promo/12Charlton-promo-thumbLarge.jpg",
+                    "format": "thumbLarge",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": ""
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/12/12/books/12Charlton-promo/12Charlton-promo-articleInline.jpg",
+                    "format": "Normal",
+                    "height": 127,
+                    "width": 190,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": ""
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/12/12/books/12Charlton-promo/12Charlton-promo-mediumThreeByTwo210.jpg",
+                    "format": "mediumThreeByTwo210",
+                    "height": 140,
+                    "width": 210,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": ""
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2019/12/12/books/12Charlton-promo/12Charlton-promo-superJumbo.jpg",
+                    "format": "superJumbo",
+                    "height": 842,
+                    "width": 1262,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": ""
+                }
+            ],
+            "short_url": "https://nyti.ms/2qJmfS1"
+        }
+    ]
+}

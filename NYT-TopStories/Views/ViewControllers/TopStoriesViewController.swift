@@ -17,10 +17,33 @@ class TopStoriesViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        adjustAppearanceAndStyle()
+        viewModel.fetchData()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+}
+
+fileprivate extension TopStoriesViewController {
+    func adjustAppearanceAndStyle() {
+        navigationItem.titleView = Banner.view()
+        
     }
 }
 
 extension TopStoriesViewController: TopStoriesViewControllerDelegate {
+    func willStartFetchingData() {
+        print("Show progress hud")
+    }
     
+    func didFinishFetchingData() {
+        print("data fetched")
+    }
+    
+    func didFailedWithError(_ description: String) {
+        fatalError(description)
+    }
 }
