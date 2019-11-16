@@ -39,8 +39,8 @@ class TopStoriesTests: XCTestCase {
         XCTAssertEqual(viewModel.filter.isEmpty, true)
         XCTAssertEqual(viewModel.article(at: 0), mockService.articles[0])
         
-        XCTAssertTrue(mockViewController.calledWillStartFetchingData, "Should invoke fetching start indicator for loading HUD")
-        XCTAssertTrue(mockViewController.calledDidFinishFetchingData, "Should update and refresh view.")
+        XCTAssertTrue(mockViewController.calledWillStartFetchingData == 1, "Should invoke fetching start indicator for loading HUD")
+        XCTAssertTrue(mockViewController.calledDidFinishFetchingData == 1, "Should update and refresh view.")
     }
     
     func testFailedDataFetching() {
@@ -52,9 +52,23 @@ class TopStoriesTests: XCTestCase {
         XCTAssertEqual(viewModel.articleCount, 0)
         XCTAssertNil(viewModel.article(at: 0))
         
-        XCTAssertTrue(mockViewController.calledWillStartFetchingData, "Should invoke fetching start indicator for loading HUD")
-        XCTAssertFalse(mockViewController.calledDidFinishFetchingData, "Should not update and refresh view.")
+        XCTAssertTrue(mockViewController.calledWillStartFetchingData == 1, "Should invoke fetching start indicator for loading HUD")
+        XCTAssertTrue(mockViewController.calledDidFinishFetchingData == 0, "Should not update and refresh view.")
         XCTAssertTrue(mockViewController.calledDidFailedWithError, "Should invoke error passing delegate.")
         XCTAssertEqual(mockViewController.errorDescription, mockError.errorDescription)
+    }
+    
+    func testDataSearchFilter() {
+        let filter = "Trump"
+        
+        viewModel.fetchData()
+        
+        let expectedArticles = mockService.articles.filter { $0.title.lowercased().contains(filter.lowercased()) }
+        
+        viewModel.filter = filter
+        
+        XCTAssertTrue(mockViewController.calledDidFinishFetchingData == 2, "Should update and refresh view.")
+        XCTAssertEqual(viewModel.articleCount, expectedArticles.count)
+        XCTAssertEqual(viewModel.article(at: 0), expectedArticles[0])
     }
 }

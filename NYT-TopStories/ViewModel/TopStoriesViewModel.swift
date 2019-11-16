@@ -55,7 +55,7 @@ class TopStoriesViewModel: TopStoriesProtocol {
     
     private func filterUser() {
         list.removeAll()
-        list = filter.isEmpty ? articles:articles.filter { $0.title.contains(filter)}
+        list = filter.isEmpty ? articles:articles.filter { $0.title.lowercased().contains(filter.lowercased()) }
         
         self.delegate?.didFinishFetchingData()
     }
