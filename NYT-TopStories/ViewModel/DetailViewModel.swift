@@ -18,7 +18,7 @@ class DetailViewModel: DetailViewProtocol {
     private let seeMore = "See More"
     
     var titleNavigation: String {
-        return "\(article.section)\(article.subsection != nil ? " - \(article.subsection!)":"")"
+        return "\(article.section)\(article.subsection?.isEmpty == true ? "":" - \(article.subsection!)")"
     }
     
     var imageUrl: URL? {

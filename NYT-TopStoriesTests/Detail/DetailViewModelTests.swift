@@ -28,7 +28,7 @@ class DetailViewModelTests: XCTestCase {
     }
 
     func testViewModel() {
-        var extected = "\(mockArticle.section)\(mockArticle.subsection != nil ? " - \(mockArticle.subsection!)":"")"
+        var extected = "\(mockArticle.section)\(mockArticle.subsection!.isEmpty ? "":" - \(mockArticle.subsection!)")"
         XCTAssertEqual(viewModel.titleNavigation, extected)
         
         XCTAssertNil(viewModel.imageUrl)

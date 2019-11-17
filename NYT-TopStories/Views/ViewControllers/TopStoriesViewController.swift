@@ -19,6 +19,8 @@ class TopStoriesViewController: UIViewController {
     
     private lazy var searchBar: UISearchBar = {
         let searchBar:UISearchBar = UISearchBar()
+        searchBar.isAccessibilityElement = true
+        searchBar.accessibilityLabel = "SearchField"
         searchBar.placeholder = "Search..."
         searchBar.sizeToFit()
         searchBar.isTranslucent = false
@@ -31,12 +33,16 @@ class TopStoriesViewController: UIViewController {
     
     private lazy var refreshControl: UIRefreshControl = {
         let refresh = UIRefreshControl()
+        refresh.isAccessibilityElement = true
+        refresh.accessibilityLabel = "RefreshControl"
         refresh.addTarget(self, action: #selector(relaodData), for: .valueChanged)
         return refresh
     }()
     
     private lazy var progressHud: UIActivityIndicatorView = {
         let indicator = UIActivityIndicatorView(style: .gray)
+        indicator.isAccessibilityElement = true
+        indicator.accessibilityLabel = "ProgressIndicator"
         indicator.hidesWhenStopped = true
         indicator.center = view.center
         view.addSubview(indicator)
@@ -133,6 +139,7 @@ extension TopStoriesViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let articleCell = tableView.dequeueReusableCell(withIdentifier: ArticleCell.identifier, for: indexPath) as! ArticleCell
+        articleCell.accessibilityLabel = "Story \(indexPath.item)"
         articleCell.article = viewModel.article(at: indexPath.item)
         return articleCell
     }

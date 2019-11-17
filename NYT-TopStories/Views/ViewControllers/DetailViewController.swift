@@ -63,6 +63,8 @@ fileprivate extension DetailViewController {
             let config = SFSafariViewController.Configuration()
             let safari = SFSafariViewController(url: viewModel.articleUrl, configuration: config)
             safari.modalPresentationStyle = .overFullScreen
+            safari.isAccessibilityElement = true
+            safari.accessibilityLabel = "Open Article"
             navigationController?.present(safari, animated: true, completion: nil)
         }
     }

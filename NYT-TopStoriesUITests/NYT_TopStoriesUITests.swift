@@ -10,28 +10,64 @@ import XCTest
 
 class NYT_TopStoriesUITests: XCTestCase {
 
+    var app: XCUIApplication!
+    
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
-        // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
 
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        app = XCUIApplication()
+        app.launchArguments.append("--uitesting")
     }
 
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        app = nil
     }
 
-    func testExample() {
-        // UI tests must launch the application that they test.
-        let app = XCUIApplication()
+    func testTopStoriesList() {
         app.launch()
-
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        // check navigation bar title logo
+        let titleLogo = app.navigationBars["NYT_TopStories.TopStoriesView"].staticTexts.containing(.image, identifier:"nyt_logo").element
+        XCTAssertTrue(titleLogo.exists)
+        
+        // check body element
+        let tableviewTable = app.tables["TableView"]
+        XCTAssertTrue(tableviewTable.exists)
+        
+//        let searchField = tableviewTable.otherElements.element(boundBy: 0).otherElements["SearchField"]
+//        XCTAssertTrue(searchField.exists)
+//        searchField.typeText("US")
+        
+        XCUIDevice.shared.orientation = .landscapeRight
+        sleep(1)
+        app.swipeUp()
+        XCUIDevice.shared.orientation = .portrait
+        sleep(1)
+        app.swipeDown()
     }
 
+    func testDetailView() {
+        app.launch()
+        
+        let cell = app.tables["TableView"].cells.allElementsBoundByIndex[0]
+        cell.tap()
+        
+        XCUIDevice.shared.orientation = .landscapeRight
+        sleep(1)
+        let scrollView = app.scrollViews.allElementsBoundByIndex[0]
+        scrollView.swipeUp()
+        scrollView.swipeUp()
+        scrollView.swipeDown()
+        XCUIDevice.shared.orientation = .portrait
+        sleep(1)
+        scrollView.swipeDown()
+        app.navigationBars.buttons["Back"].tap()
+    }
+    
+    func testFullFlow() {
+        
+    }
+    
     func testLaunchPerformance() {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
             // This measures how long it takes to launch your application.
