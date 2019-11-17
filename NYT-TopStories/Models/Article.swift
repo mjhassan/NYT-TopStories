@@ -22,7 +22,8 @@ struct Article: Codable {
         let format: Format
         let caption: String?
         let copyright: String?
-        
+        let height: Int
+        let width: Int
     }
     
     let section: String
@@ -35,7 +36,7 @@ struct Article: Codable {
     let multimedias: [Multimedia]?
     
     var thumbURL: URL? {
-        return multimedias?.first(where: { $0.format == .superJumbo })?.url
+        return multimedias?.first(where: { $0.format == .standardThumbnail })?.url
     }
     
     enum CodingKeys: String, CodingKey {

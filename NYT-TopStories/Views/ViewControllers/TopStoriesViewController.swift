@@ -58,11 +58,20 @@ class TopStoriesViewController: UIViewController {
         }
     }
     
+    private let segue_id = "DetailViewControllerSegue"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         configureViews()
         relaodData()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == segue_id,
+            let destination = segue.destination as? DetailViewController {
+            destination.viewModel = DetailViewModel(article: sender as! Article)
+        }
     }
 }
 
@@ -135,7 +144,7 @@ extension TopStoriesViewController: UITableViewDataSource, UITableViewDelegate {
             return
         }
         
-        print(article.title)
+        performSegue(withIdentifier: segue_id, sender: article)
     }
 }
 

@@ -54,6 +54,11 @@
 		4650C87323810AA900ADC1DC /* NSFileManager+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C85D23810AA900ADC1DC /* NSFileManager+Haneke.swift */; };
 		4650C87523810ABF00ADC1DC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4650C87423810ABF00ADC1DC /* README.md */; };
 		4650C87B23811FBC00ADC1DC /* ArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4650C87923811F5E00ADC1DC /* ArticleCell.xib */; };
+		4684CC2823813BC700FE52ED /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4684CC2723813BC700FE52ED /* DetailViewController.swift */; };
+		4684CC2A23813C3700FE52ED /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4684CC2923813C3700FE52ED /* DetailViewModel.swift */; };
+		4684CC2C23813C5200FE52ED /* DetailViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4684CC2B23813C5200FE52ED /* DetailViewProtocol.swift */; };
+		4684CC2F238152B000FE52ED /* UITapGestureExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4684CC2E238152B000FE52ED /* UITapGestureExtensions.swift */; };
+		4684CC3323815E2300FE52ED /* DetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4684CC3223815E2300FE52ED /* DetailViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +134,11 @@
 		4650C85D23810AA900ADC1DC /* NSFileManager+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSFileManager+Haneke.swift"; sourceTree = "<group>"; };
 		4650C87423810ABF00ADC1DC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4650C87923811F5E00ADC1DC /* ArticleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleCell.xib; sourceTree = "<group>"; };
+		4684CC2723813BC700FE52ED /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4684CC2923813C3700FE52ED /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		4684CC2B23813C5200FE52ED /* DetailViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewProtocol.swift; sourceTree = "<group>"; };
+		4684CC2E238152B000FE52ED /* UITapGestureExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITapGestureExtensions.swift; sourceTree = "<group>"; };
+		4684CC3223815E2300FE52ED /* DetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +177,7 @@
 		086BDA902380502900DF001E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				4684CC2D2381528C00FE52ED /* Extensions */,
 				4650C84623810AA900ADC1DC /* Haneke */,
 				086BDA912380506100DF001E /* UtilityMethods.swift */,
 				086BDA932380568D00DF001E /* Reachability.swift */,
@@ -212,13 +223,11 @@
 		086F601F237EEC750073F4AC /* NYT-TopStoriesTests */ = {
 			isa = PBXGroup;
 			children = (
+				4684CC3123815DFA00FE52ED /* Detail */,
+				4684CC3023815DE200FE52ED /* TopStories */,
 				086BDA8B23803BA700DF001E /* top_stories_home.json */,
 				086F6022237EEC750073F4AC /* Info.plist */,
 				086F604C237EF7040073F4AC /* NYT-TopStoriesTests-Bridging-Header.h */,
-				086F604A237EF6220073F4AC /* TopStoriesTests.swift */,
-				086F604D237EFC5A0073F4AC /* MockTopStoriesViewController.swift */,
-				086BDA8923803B5000DF001E /* MockNYTService.swift */,
-				086BDA8D23803FE400DF001E /* ArticleExtensions.swift */,
 			);
 			path = "NYT-TopStoriesTests";
 			sourceTree = "<group>";
@@ -264,6 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				086F600D237EEC5E0073F4AC /* TopStoriesViewController.swift */,
+				4684CC2723813BC700FE52ED /* DetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -289,6 +299,7 @@
 			isa = PBXGroup;
 			children = (
 				086F6045237EF36B0073F4AC /* TopStoriesViewModel.swift */,
+				4684CC2923813C3700FE52ED /* DetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -299,6 +310,7 @@
 				086F6043237EF30F0073F4AC /* TopStoriesProtocol.swift */,
 				086F6047237EF3D80073F4AC /* TopStoriesViewControllerDelegate.swift */,
 				086BDA7E2380173000DF001E /* ServiceProtocol.swift */,
+				4684CC2B23813C5200FE52ED /* DetailViewProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -359,6 +371,33 @@
 				086F6055237F156F0073F4AC /* ArticleCell.swift */,
 			);
 			path = ArticleCell;
+			sourceTree = "<group>";
+		};
+		4684CC2D2381528C00FE52ED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4684CC2E238152B000FE52ED /* UITapGestureExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4684CC3023815DE200FE52ED /* TopStories */ = {
+			isa = PBXGroup;
+			children = (
+				086F604A237EF6220073F4AC /* TopStoriesTests.swift */,
+				086F604D237EFC5A0073F4AC /* MockTopStoriesViewController.swift */,
+				086BDA8923803B5000DF001E /* MockNYTService.swift */,
+				086BDA8D23803FE400DF001E /* ArticleExtensions.swift */,
+			);
+			path = TopStories;
+			sourceTree = "<group>";
+		};
+		4684CC3123815DFA00FE52ED /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				4684CC3223815E2300FE52ED /* DetailViewModelTests.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -500,6 +539,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				086F6046237EF36B0073F4AC /* TopStoriesViewModel.swift in Sources */,
+				4684CC2823813BC700FE52ED /* DetailViewController.swift in Sources */,
 				4650C86523810AA900ADC1DC /* NSURLResponse+Haneke.swift in Sources */,
 				4650C86923810AA900ADC1DC /* CGSize+Swift.swift in Sources */,
 				4650C86A23810AA900ADC1DC /* UIImage+Haneke.swift in Sources */,
@@ -517,15 +557,18 @@
 				4650C87123810AA900ADC1DC /* Fetcher.swift in Sources */,
 				4650C86723810AA900ADC1DC /* NSHTTPURLResponse+Haneke.swift in Sources */,
 				4650C86D23810AA900ADC1DC /* DiskCache.swift in Sources */,
+				4684CC2C23813C5200FE52ED /* DetailViewProtocol.swift in Sources */,
 				086BDA7F2380173000DF001E /* ServiceProtocol.swift in Sources */,
 				086BDA922380506100DF001E /* UtilityMethods.swift in Sources */,
 				086F600E237EEC5E0073F4AC /* TopStoriesViewController.swift in Sources */,
 				4650C86B23810AA900ADC1DC /* Fetch.swift in Sources */,
+				4684CC2A23813C3700FE52ED /* DetailViewModel.swift in Sources */,
 				086BDA8423801E4D00DF001E /* Article.swift in Sources */,
 				086F6056237F156F0073F4AC /* ArticleCell.swift in Sources */,
 				4650C85F23810AA900ADC1DC /* Haneke.swift in Sources */,
 				4650C85E23810AA900ADC1DC /* Format.swift in Sources */,
 				4650C86F23810AA900ADC1DC /* Cache.swift in Sources */,
+				4684CC2F238152B000FE52ED /* UITapGestureExtensions.swift in Sources */,
 				086F600A237EEC5E0073F4AC /* AppDelegate.swift in Sources */,
 				4650C86C23810AA900ADC1DC /* DiskFetcher.swift in Sources */,
 				4650C87323810AA900ADC1DC /* NSFileManager+Haneke.swift in Sources */,
@@ -540,6 +583,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				086F604E237EFC5B0073F4AC /* MockTopStoriesViewController.swift in Sources */,
+				4684CC3323815E2300FE52ED /* DetailViewModelTests.swift in Sources */,
 				086F604B237EF6220073F4AC /* TopStoriesTests.swift in Sources */,
 				086BDA8E23803FE400DF001E /* ArticleExtensions.swift in Sources */,
 				086BDA8A23803B5000DF001E /* MockNYTService.swift in Sources */,

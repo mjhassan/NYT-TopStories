@@ -17,7 +17,7 @@ class ArticleCell: UITableViewCell {
     @IBOutlet weak var imgView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var abstractLabel: UILabel!
-    @IBOutlet weak var imageHeightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var titleLeadingConstraint: NSLayoutConstraint!
     
     private let placeholder = UIImage(named: "placeholder")
     
@@ -26,29 +26,19 @@ class ArticleCell: UITableViewCell {
             guard let _article = article else { return }
             
             titleLabel?.text = _article.title
-            abstractLabel?.text = _article.abstract
+            abstractLabel?.text = _article.author
             
             imgView?.image = placeholder
-            imageHeightConstraint.constant = _article.thumbURL == nil ?
-                0: (bounds.width - 40)/2
+            titleLeadingConstraint.constant = _article.thumbURL == nil ? 8:91
             
             invoke(onThread: DispatchQueue.main) {
                 if let url = _article.thumbURL {
+                    self.imgView.isHidden = false
                     self.imgView?.hnk_setImageFromURL(url)
+                } else {
+                    self.imgView.isHidden = true
                 }
             }
         }
     }
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }

@@ -37,11 +37,94 @@
                     <navigationItem key="navigationItem" id="bD7-nj-Izy"/>
                     <connections>
                         <outlet property="_tableView" destination="QVP-VR-coG" id="ubL-E7-DHB"/>
+                        <segue destination="QkG-L2-m1c" kind="show" identifier="DetailViewControllerSegue" id="caN-9p-lGJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="138.61607142857142"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="nye-Xf-XXm">
+            <objects>
+                <viewController id="QkG-L2-m1c" customClass="DetailViewController" customModule="NYT_TopStories" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1cc-9t-FQ4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VFu-ug-VeA">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6tT-2h-5xf">
+                                        <rect key="frame" x="8" y="8" width="398" height="199"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="199" id="t7k-bo-LpC"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oc3-uQ-PWM">
+                                        <rect key="frame" x="8" y="215" width="398" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gF-oT-ash">
+                                        <rect key="frame" x="8" y="243" width="398" height="20.5"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="description">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="author" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grk-2F-ErR">
+                                        <rect key="frame" x="8" y="267.5" width="398" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="6tT-2h-5xf" firstAttribute="top" secondItem="VFu-ug-VeA" secondAttribute="top" constant="8" id="1Ro-ch-JOq"/>
+                                    <constraint firstItem="9gF-oT-ash" firstAttribute="leading" secondItem="Oc3-uQ-PWM" secondAttribute="leading" id="3n6-i1-V3e"/>
+                                    <constraint firstItem="6tT-2h-5xf" firstAttribute="leading" secondItem="VFu-ug-VeA" secondAttribute="leading" constant="8" id="Djv-c1-Rds"/>
+                                    <constraint firstAttribute="trailing" secondItem="6tT-2h-5xf" secondAttribute="trailing" constant="8" id="RDg-oC-rKK"/>
+                                    <constraint firstItem="Oc3-uQ-PWM" firstAttribute="top" secondItem="6tT-2h-5xf" secondAttribute="bottom" constant="8" id="ZQm-Z7-rtQ"/>
+                                    <constraint firstItem="Oc3-uQ-PWM" firstAttribute="trailing" secondItem="6tT-2h-5xf" secondAttribute="trailing" id="ajO-PS-J2D"/>
+                                    <constraint firstItem="9gF-oT-ash" firstAttribute="trailing" secondItem="Oc3-uQ-PWM" secondAttribute="trailing" id="bcz-G2-NdP"/>
+                                    <constraint firstItem="grk-2F-ErR" firstAttribute="leading" secondItem="9gF-oT-ash" secondAttribute="leading" id="bxe-RY-2yE"/>
+                                    <constraint firstAttribute="bottom" secondItem="grk-2F-ErR" secondAttribute="bottom" constant="492" id="dXA-8k-iPr"/>
+                                    <constraint firstItem="Oc3-uQ-PWM" firstAttribute="leading" secondItem="6tT-2h-5xf" secondAttribute="leading" id="edu-tC-AEw"/>
+                                    <constraint firstItem="6tT-2h-5xf" firstAttribute="centerX" secondItem="VFu-ug-VeA" secondAttribute="centerX" id="jRV-Pp-z9H"/>
+                                    <constraint firstItem="grk-2F-ErR" firstAttribute="top" secondItem="9gF-oT-ash" secondAttribute="bottom" constant="4" id="jbA-UY-sbI"/>
+                                    <constraint firstItem="9gF-oT-ash" firstAttribute="top" secondItem="Oc3-uQ-PWM" secondAttribute="bottom" constant="4" id="kKF-fl-lDj"/>
+                                    <constraint firstItem="grk-2F-ErR" firstAttribute="trailing" secondItem="9gF-oT-ash" secondAttribute="trailing" id="zu2-Fv-3kW"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="VFu-ug-VeA" firstAttribute="bottom" secondItem="mOW-vf-gAU" secondAttribute="bottom" id="80l-Zg-50N"/>
+                            <constraint firstItem="VFu-ug-VeA" firstAttribute="top" secondItem="mOW-vf-gAU" secondAttribute="top" id="nLN-Nk-V8g"/>
+                            <constraint firstItem="VFu-ug-VeA" firstAttribute="leading" secondItem="mOW-vf-gAU" secondAttribute="leading" id="rV5-G8-ZlW"/>
+                            <constraint firstItem="VFu-ug-VeA" firstAttribute="trailing" secondItem="mOW-vf-gAU" secondAttribute="trailing" id="spj-Ko-gkU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mOW-vf-gAU"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tCi-8U-uh8"/>
+                    <connections>
+                        <outlet property="authorLabel" destination="grk-2F-ErR" id="cCI-op-hID"/>
+                        <outlet property="descriptionLabel" destination="9gF-oT-ash" id="ayp-bs-KKo"/>
+                        <outlet property="imageView" destination="6tT-2h-5xf" id="coH-EH-roJ"/>
+                        <outlet property="imageViewHeightConstrint" destination="t7k-bo-LpC" id="UaP-yC-jFg"/>
+                        <outlet property="titleLabel" destination="Oc3-uQ-PWM" id="7kS-hw-1VB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NbK-sY-nQW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1892.753623188406" y="138.61607142857142"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ADP-Ug-sYT">
