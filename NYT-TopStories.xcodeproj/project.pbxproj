@@ -30,6 +30,30 @@
 		086F6052237F0E410073F4AC /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F6051237F0E410073F4AC /* Banner.swift */; };
 		086F6054237F0E560073F4AC /* Banner.xib in Resources */ = {isa = PBXBuildFile; fileRef = 086F6053237F0E560073F4AC /* Banner.xib */; };
 		086F6056237F156F0073F4AC /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F6055237F156F0073F4AC /* ArticleCell.swift */; };
+		4650C85E23810AA900ADC1DC /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C84723810AA900ADC1DC /* Format.swift */; };
+		4650C85F23810AA900ADC1DC /* Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C84823810AA900ADC1DC /* Haneke.swift */; };
+		4650C86023810AA900ADC1DC /* String+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C84923810AA900ADC1DC /* String+Haneke.swift */; };
+		4650C86123810AA900ADC1DC /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C84A23810AA900ADC1DC /* Log.swift */; };
+		4650C86223810AA900ADC1DC /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C84B23810AA900ADC1DC /* Data.swift */; };
+		4650C86323810AA900ADC1DC /* CryptoSwiftMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C84C23810AA900ADC1DC /* CryptoSwiftMD5.swift */; };
+		4650C86423810AA900ADC1DC /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4650C84D23810AA900ADC1DC /* Info-iOS.plist */; };
+		4650C86523810AA900ADC1DC /* NSURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C84E23810AA900ADC1DC /* NSURLResponse+Haneke.swift */; };
+		4650C86623810AA900ADC1DC /* UIView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C85023810AA900ADC1DC /* UIView+Haneke.swift */; };
+		4650C86723810AA900ADC1DC /* NSHTTPURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C85123810AA900ADC1DC /* NSHTTPURLResponse+Haneke.swift */; };
+		4650C86823810AA900ADC1DC /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C85223810AA900ADC1DC /* NetworkFetcher.swift */; };
+		4650C86923810AA900ADC1DC /* CGSize+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C85323810AA900ADC1DC /* CGSize+Swift.swift */; };
+		4650C86A23810AA900ADC1DC /* UIImage+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C85423810AA900ADC1DC /* UIImage+Haneke.swift */; };
+		4650C86B23810AA900ADC1DC /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C85523810AA900ADC1DC /* Fetch.swift */; };
+		4650C86C23810AA900ADC1DC /* DiskFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C85623810AA900ADC1DC /* DiskFetcher.swift */; };
+		4650C86D23810AA900ADC1DC /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C85723810AA900ADC1DC /* DiskCache.swift */; };
+		4650C86E23810AA900ADC1DC /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4650C85823810AA900ADC1DC /* Info-tvOS.plist */; };
+		4650C86F23810AA900ADC1DC /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C85923810AA900ADC1DC /* Cache.swift */; };
+		4650C87023810AA900ADC1DC /* UIImageView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C85A23810AA900ADC1DC /* UIImageView+Haneke.swift */; };
+		4650C87123810AA900ADC1DC /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C85B23810AA900ADC1DC /* Fetcher.swift */; };
+		4650C87223810AA900ADC1DC /* UIButton+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C85C23810AA900ADC1DC /* UIButton+Haneke.swift */; };
+		4650C87323810AA900ADC1DC /* NSFileManager+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4650C85D23810AA900ADC1DC /* NSFileManager+Haneke.swift */; };
+		4650C87523810ABF00ADC1DC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4650C87423810ABF00ADC1DC /* README.md */; };
+		4650C87B23811FBC00ADC1DC /* ArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4650C87923811F5E00ADC1DC /* ArticleCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +104,31 @@
 		086F6051237F0E410073F4AC /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		086F6053237F0E560073F4AC /* Banner.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Banner.xib; sourceTree = "<group>"; };
 		086F6055237F156F0073F4AC /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		4650C84723810AA900ADC1DC /* Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Format.swift; sourceTree = "<group>"; };
+		4650C84823810AA900ADC1DC /* Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Haneke.swift; sourceTree = "<group>"; };
+		4650C84923810AA900ADC1DC /* String+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Haneke.swift"; sourceTree = "<group>"; };
+		4650C84A23810AA900ADC1DC /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		4650C84B23810AA900ADC1DC /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		4650C84C23810AA900ADC1DC /* CryptoSwiftMD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoSwiftMD5.swift; sourceTree = "<group>"; };
+		4650C84D23810AA900ADC1DC /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		4650C84E23810AA900ADC1DC /* NSURLResponse+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURLResponse+Haneke.swift"; sourceTree = "<group>"; };
+		4650C84F23810AA900ADC1DC /* Haneke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Haneke.h; sourceTree = "<group>"; };
+		4650C85023810AA900ADC1DC /* UIView+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Haneke.swift"; sourceTree = "<group>"; };
+		4650C85123810AA900ADC1DC /* NSHTTPURLResponse+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSHTTPURLResponse+Haneke.swift"; sourceTree = "<group>"; };
+		4650C85223810AA900ADC1DC /* NetworkFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkFetcher.swift; sourceTree = "<group>"; };
+		4650C85323810AA900ADC1DC /* CGSize+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+Swift.swift"; sourceTree = "<group>"; };
+		4650C85423810AA900ADC1DC /* UIImage+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Haneke.swift"; sourceTree = "<group>"; };
+		4650C85523810AA900ADC1DC /* Fetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetch.swift; sourceTree = "<group>"; };
+		4650C85623810AA900ADC1DC /* DiskFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskFetcher.swift; sourceTree = "<group>"; };
+		4650C85723810AA900ADC1DC /* DiskCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskCache.swift; sourceTree = "<group>"; };
+		4650C85823810AA900ADC1DC /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		4650C85923810AA900ADC1DC /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		4650C85A23810AA900ADC1DC /* UIImageView+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Haneke.swift"; sourceTree = "<group>"; };
+		4650C85B23810AA900ADC1DC /* Fetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
+		4650C85C23810AA900ADC1DC /* UIButton+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Haneke.swift"; sourceTree = "<group>"; };
+		4650C85D23810AA900ADC1DC /* NSFileManager+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSFileManager+Haneke.swift"; sourceTree = "<group>"; };
+		4650C87423810ABF00ADC1DC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4650C87923811F5E00ADC1DC /* ArticleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +167,7 @@
 		086BDA902380502900DF001E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				4650C84623810AA900ADC1DC /* Haneke */,
 				086BDA912380506100DF001E /* UtilityMethods.swift */,
 				086BDA932380568D00DF001E /* Reachability.swift */,
 			);
@@ -256,8 +306,8 @@
 		086F604F237F0E130073F4AC /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				4650C876238119BF00ADC1DC /* ArticleCell */,
 				086F6050237F0E1E0073F4AC /* Banner */,
-				086F6055237F156F0073F4AC /* ArticleCell.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -269,6 +319,46 @@
 				086F6053237F0E560073F4AC /* Banner.xib */,
 			);
 			path = Banner;
+			sourceTree = "<group>";
+		};
+		4650C84623810AA900ADC1DC /* Haneke */ = {
+			isa = PBXGroup;
+			children = (
+				4650C87423810ABF00ADC1DC /* README.md */,
+				4650C84723810AA900ADC1DC /* Format.swift */,
+				4650C84823810AA900ADC1DC /* Haneke.swift */,
+				4650C84923810AA900ADC1DC /* String+Haneke.swift */,
+				4650C84A23810AA900ADC1DC /* Log.swift */,
+				4650C84B23810AA900ADC1DC /* Data.swift */,
+				4650C84C23810AA900ADC1DC /* CryptoSwiftMD5.swift */,
+				4650C84D23810AA900ADC1DC /* Info-iOS.plist */,
+				4650C84E23810AA900ADC1DC /* NSURLResponse+Haneke.swift */,
+				4650C84F23810AA900ADC1DC /* Haneke.h */,
+				4650C85023810AA900ADC1DC /* UIView+Haneke.swift */,
+				4650C85123810AA900ADC1DC /* NSHTTPURLResponse+Haneke.swift */,
+				4650C85223810AA900ADC1DC /* NetworkFetcher.swift */,
+				4650C85323810AA900ADC1DC /* CGSize+Swift.swift */,
+				4650C85423810AA900ADC1DC /* UIImage+Haneke.swift */,
+				4650C85523810AA900ADC1DC /* Fetch.swift */,
+				4650C85623810AA900ADC1DC /* DiskFetcher.swift */,
+				4650C85723810AA900ADC1DC /* DiskCache.swift */,
+				4650C85823810AA900ADC1DC /* Info-tvOS.plist */,
+				4650C85923810AA900ADC1DC /* Cache.swift */,
+				4650C85A23810AA900ADC1DC /* UIImageView+Haneke.swift */,
+				4650C85B23810AA900ADC1DC /* Fetcher.swift */,
+				4650C85C23810AA900ADC1DC /* UIButton+Haneke.swift */,
+				4650C85D23810AA900ADC1DC /* NSFileManager+Haneke.swift */,
+			);
+			path = Haneke;
+			sourceTree = "<group>";
+		};
+		4650C876238119BF00ADC1DC /* ArticleCell */ = {
+			isa = PBXGroup;
+			children = (
+				4650C87923811F5E00ADC1DC /* ArticleCell.xib */,
+				086F6055237F156F0073F4AC /* ArticleCell.swift */,
+			);
+			path = ArticleCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,7 +466,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4650C86423810AA900ADC1DC /* Info-iOS.plist in Resources */,
 				086F6016237EEC750073F4AC /* LaunchScreen.storyboard in Resources */,
+				4650C86E23810AA900ADC1DC /* Info-tvOS.plist in Resources */,
+				4650C87523810ABF00ADC1DC /* README.md in Resources */,
+				4650C87B23811FBC00ADC1DC /* ArticleCell.xib in Resources */,
 				086F6054237F0E560073F4AC /* Banner.xib in Resources */,
 				086F6013237EEC740073F4AC /* Assets.xcassets in Resources */,
 				086F6011237EEC5E0073F4AC /* Main.storyboard in Resources */,
@@ -406,18 +500,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				086F6046237EF36B0073F4AC /* TopStoriesViewModel.swift in Sources */,
+				4650C86523810AA900ADC1DC /* NSURLResponse+Haneke.swift in Sources */,
+				4650C86923810AA900ADC1DC /* CGSize+Swift.swift in Sources */,
+				4650C86A23810AA900ADC1DC /* UIImage+Haneke.swift in Sources */,
+				4650C86823810AA900ADC1DC /* NetworkFetcher.swift in Sources */,
+				4650C87223810AA900ADC1DC /* UIButton+Haneke.swift in Sources */,
+				4650C86123810AA900ADC1DC /* Log.swift in Sources */,
+				4650C86323810AA900ADC1DC /* CryptoSwiftMD5.swift in Sources */,
 				086BDA82238018C800DF001E /* NYTService.swift in Sources */,
+				4650C86623810AA900ADC1DC /* UIView+Haneke.swift in Sources */,
+				4650C87023810AA900ADC1DC /* UIImageView+Haneke.swift in Sources */,
 				086F6044237EF30F0073F4AC /* TopStoriesProtocol.swift in Sources */,
 				086BDA86238025D400DF001E /* CodableError.swift in Sources */,
 				086F6048237EF3D80073F4AC /* TopStoriesViewControllerDelegate.swift in Sources */,
+				4650C86223810AA900ADC1DC /* Data.swift in Sources */,
+				4650C87123810AA900ADC1DC /* Fetcher.swift in Sources */,
+				4650C86723810AA900ADC1DC /* NSHTTPURLResponse+Haneke.swift in Sources */,
+				4650C86D23810AA900ADC1DC /* DiskCache.swift in Sources */,
 				086BDA7F2380173000DF001E /* ServiceProtocol.swift in Sources */,
 				086BDA922380506100DF001E /* UtilityMethods.swift in Sources */,
 				086F600E237EEC5E0073F4AC /* TopStoriesViewController.swift in Sources */,
+				4650C86B23810AA900ADC1DC /* Fetch.swift in Sources */,
 				086BDA8423801E4D00DF001E /* Article.swift in Sources */,
 				086F6056237F156F0073F4AC /* ArticleCell.swift in Sources */,
+				4650C85F23810AA900ADC1DC /* Haneke.swift in Sources */,
+				4650C85E23810AA900ADC1DC /* Format.swift in Sources */,
+				4650C86F23810AA900ADC1DC /* Cache.swift in Sources */,
 				086F600A237EEC5E0073F4AC /* AppDelegate.swift in Sources */,
+				4650C86C23810AA900ADC1DC /* DiskFetcher.swift in Sources */,
+				4650C87323810AA900ADC1DC /* NSFileManager+Haneke.swift in Sources */,
 				086F6052237F0E410073F4AC /* Banner.swift in Sources */,
 				086BDA942380568D00DF001E /* Reachability.swift in Sources */,
+				4650C86023810AA900ADC1DC /* String+Haneke.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

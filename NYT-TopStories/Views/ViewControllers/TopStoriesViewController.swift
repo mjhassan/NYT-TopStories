@@ -29,13 +29,6 @@ class TopStoriesViewController: UIViewController {
         return searchBar
     }()
     
-    private lazy var reload: UIBarButtonItem = {
-        let reloadButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.refresh,
-                                           target: self,
-                                           action: #selector(relaodData))
-        return reloadButton
-    }()
-    
     private lazy var refreshControl: UIRefreshControl = {
         let refresh = UIRefreshControl()
         refresh.addTarget(self, action: #selector(relaodData), for: .valueChanged)
@@ -76,9 +69,8 @@ class TopStoriesViewController: UIViewController {
 fileprivate extension TopStoriesViewController {
     func configureViews() {
         navigationItem.titleView = Banner.view
-        navigationItem.rightBarButtonItem = reload
         
-        _tableView.register(ArticleCell.self, forCellReuseIdentifier: ArticleCell.identifier)
+        _tableView.register(ArticleCell.nib, forCellReuseIdentifier: ArticleCell.identifier)
         _tableView.tableHeaderView = searchBar
         _tableView.tableFooterView = UIView()
         _tableView.addSubview(refreshControl)
@@ -137,6 +129,8 @@ extension TopStoriesViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        
         guard let article = viewModel.article(at: indexPath.item) else {
             return
         }

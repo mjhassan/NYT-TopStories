@@ -11,5 +11,11 @@ import Foundation
 protocol ServiceProtocol {
     static var shared: ServiceProtocol { get }
     
-    func getTopStories(_ completion: @escaping (Result<[Article], CodableError>) -> Void)
+    func getTopStories(reload: Bool, _ completion: @escaping (Result<[Article], CodableError>) -> Void)
+}
+
+extension ServiceProtocol {
+    func getTopStories(_ completion: @escaping (Result<[Article], CodableError>) -> Void) {
+        getTopStories(reload: false, completion)
+    }
 }

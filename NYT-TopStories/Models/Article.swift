@@ -19,7 +19,7 @@ struct Article: Codable {
     
     struct Multimedia: Codable {
         let url: URL
-        let format: Format = .largeThumbnail
+        let format: Format
         let caption: String?
         let copyright: String?
         
@@ -33,6 +33,10 @@ struct Article: Codable {
     let author: String?
     let date: Date?
     let multimedias: [Multimedia]?
+    
+    var thumbURL: URL? {
+        return multimedias?.first(where: { $0.format == .superJumbo })?.url
+    }
     
     enum CodingKeys: String, CodingKey {
         case author         = "byline"

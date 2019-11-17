@@ -14,7 +14,7 @@ protocol TopStoriesProtocol {
     
     init(bind delegate: TopStoriesViewControllerDelegate?, service: ServiceProtocol)
     
-    func fetchData()
+    func fetchData(force: Bool)
     func article(at index: Int) -> Article?
 }
 
@@ -22,4 +22,6 @@ extension TopStoriesProtocol {
     init(bind delegate: TopStoriesViewControllerDelegate?) {
         self.init(bind: delegate, service: NYTService.shared)
     }
+    
+    func fetchData() { fetchData(force: false) }
 }

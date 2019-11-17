@@ -30,7 +30,7 @@ class TopStoriesViewModel: TopStoriesProtocol {
         self.service = service
     }
     
-    func fetchData() {
+    func fetchData(force: Bool = false) {
         guard Reachability.isReachable == true else {
             delegate?.didFailedWithError("You are offline. Please try again later.")
             return

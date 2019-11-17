@@ -32,34 +32,56 @@ enum NYT_API {
 class NYTService: ServiceProtocol {
     static let shared: ServiceProtocol = NYTService()
     
-    func getTopStories(_ completion: @escaping (Result<[Article], CodableError>) -> Void) {
-        getNewsfeed(source: "home", completion)
+    typealias callbackClosure = (Result<[Article], CodableError>) -> Void
+    
+    func getTopStories(reload: Bool = false, _ completion: @escaping callbackClosure) {
+        getNewsfeed(reload: reload, source: "home", completion)
     }
     
-    private func getNewsfeed(source: String, _ completion: @escaping (Result<[Article], CodableError>) -> Void) {
+    private func getNewsfeed(reload: Bool, source: String, _ completion: @escaping callbackClosure) {
         guard let newsUrl = NYT_API.articles(source: source).url else {
             completion(.failure(.unknown))
             return
         }
         
-        let newsRequest = URLRequest(url: newsUrl)
+        if reload {
+            download(from: newsUrl, completion)
+            return
+        }
+        
+        Shared.dataCache.fetch(key: newsUrl.absoluteString)
+            .onSuccess { [weak self] data in
+                self?.decode(data, completion)
+            }
+            .onFailure { [weak self] _ in
+                self?.download(from: newsUrl, completion)
+            }
+    }
+    
+    private func download(from url: URL, _ completion: @escaping callbackClosure) {
+        let newsRequest = URLRequest(url: url)
         let session = URLSession.shared
         
-        session.dataTask(with: newsRequest) { (data, _, error) in
+        session.dataTask(with: newsRequest) { [weak self] (data, _, error) in
             guard error == nil, let data = data else {
                 completion(.failure(.custom(error!.localizedDescription)))
                 return
             }
             
-            do {
-                let decoder = JSONDecoder()
-                decoder.dateDecodingStrategy = .iso8601
-                
-                let section =  try decoder.decode(Section.self, from: data)
-                completion(.success(section.results))
-            } catch {
-                completion(.failure(.custom(error.localizedDescription)))
-            } 
+            self?.decode(data, completion)
+            Shared.dataCache.set(value: data, key: url.absoluteString)
         }.resume()
+    }
+    
+    private func decode(_ data: Data, _ completion: @escaping callbackClosure) {
+        do {
+            let decoder = JSONDecoder()
+            decoder.dateDecodingStrategy = .iso8601
+            
+            let section =  try decoder.decode(Section.self, from: data)
+            completion(.success(section.results))
+        } catch {
+            completion(.failure(.custom(error.localizedDescription)))
+        }
     }
 }
