@@ -15,7 +15,7 @@ class MockNYTService: ServiceProtocol {
     var articles: [Article] = []
     var mockError: CodableError? = nil
     
-    func getTopStories(_ completion: @escaping (Result<[Article], CodableError>) -> Void) {
+    func getTopStories(reload: Bool, _ completion: @escaping (Result<[Article], CodableError>) -> Void) {
         // for testing errors
         if mockError != nil {
             completion(.failure(mockError!))
