@@ -12,7 +12,7 @@ enum NYT_API {
     case articles(source: String)
     
     private static var baseURL = URLComponents(string: "https://api.nytimes.com/")
-    private static let token: String = "XTLmhYCVbqFX6wD72IBA20sDN9YNDEty"
+    private static let token: String = Bundle.main.infoDictionary!["token"] as! String
     
     var url: URL? {
         switch self {
@@ -22,9 +22,6 @@ enum NYT_API {
             
             guard let url = NYT_API.baseURL?.url else { return nil }
             return url
-            
-        default:
-            fatalError("TBD")
         }
     }
 }

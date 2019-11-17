@@ -43,6 +43,9 @@ class DetailViewModelTests: XCTestCase {
         
         XCTAssertEqual(viewModel.author, mockArticle.author)
         
+        let rangeExpected = NSRange(location: mockArticle.abstract.count, length: seeMore.count+1)
+        XCTAssertEqual(viewModel.seeMoreRange, rangeExpected)
+        
         let width: Float = 300
         XCTAssertEqual(viewModel.getHeight(for: width), 0) // multimedia is empty
     }
