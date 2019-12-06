@@ -38,7 +38,7 @@ class TopStoriesViewModel: TopStoriesProtocol {
         
         delegate?.willStartFetchingData()
         
-        service.getTopStories { [weak self] result in
+        service.getTopStories(reload: force) { [weak self] result in
             switch result {
             case .success(let _articles):
                 self?.articles = _articles

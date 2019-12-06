@@ -34,9 +34,11 @@ class NYT_TopStoriesUITests: XCTestCase {
         let tableviewTable = app.tables["TableView"]
         XCTAssertTrue(tableviewTable.exists)
         
-//        let searchField = tableviewTable.otherElements.element(boundBy: 0).otherElements["SearchField"]
-//        XCTAssertTrue(searchField.exists)
-//        searchField.typeText("US")
+        let searchField = tableviewTable.otherElements["SearchField"]
+        XCTAssertTrue(searchField.exists)
+        
+        searchField.tap()
+//        app.tables.searchFields["SearchField"].typeText("US")
         
         XCUIDevice.shared.orientation = .landscapeRight
         sleep(1)

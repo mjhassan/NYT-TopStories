@@ -95,7 +95,7 @@ fileprivate extension TopStoriesViewController {
         guard loading == false else { return }
         
         invoke(after: 0.1) { [unowned self] in
-            self.viewModel.fetchData()
+            self.viewModel.fetchData(force: true)
         }
     }
     
